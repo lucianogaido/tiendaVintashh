@@ -1,0 +1,42 @@
+//MAIN DEL INDEX
+
+.slogan {
+  width: 100%;
+  height: 600px;
+  background-color: gray;
+  display: flex;
+  .sloganEscrito {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sloganImagen {
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.comoFunciona {
+  width: 100%;
+  height: 500px;
+  background-color: gray;
+  display: flex;
+}
+.modaCircular {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(170, 96, 96);
+  display: flex;
+}
+.restauracion {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(85, 85, 85);
+}

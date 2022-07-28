@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  justify-content: space-between;
+  .nav {
+    background-color: rgb(221, 138, 138);
+    width: 30%;
+    height: 100%;
+  }
+  .politicas {
+    background-color: rgb(228, 128, 128);
+    width: 30%;
+    height: 100%;
+  }
+  .redes {
+    background-color: rgb(211, 116, 116);
+    width: 30%;
+    height: 100%;
+  }
+}

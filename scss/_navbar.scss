@@ -1,0 +1,29 @@
+.navBar {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aquamarine;
+  .logoNavBar {
+    padding-left: 20px;
+  }
+  .Login {
+    padding-right: 20px;
+  }
+  ul {
+    display: flex;
+    li {
+      display: flex;
+      a {
+        display: flex;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        &:hover {
+          background-color: #f5f5f5;
+        }
+      }
+    }
+  }
+}
