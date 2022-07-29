@@ -160,5 +160,39 @@ body {
   width: 100%;
   font-family: "roboto", sans-serif;
 }
+/* Media Queries */
+/* @media (max-width: 990px) {
+  .colecciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0% ;
+    width: 95%;
+    height: 412px;
+    padding: 0px;
+    margin-left: 0vw;
+    margin-top: 0px;
+    background-color: yellow;
+    
+  }
+  .coleccion1, .coleccion2, .coleccion3{
+    position: absolute;
+    width: 5000px;
+    height: 412px;
+    padding: 0px;
+    margin-left: 0vw;
+    margin-top: 0px;
+    background-color: yellow;
+  }
+* {
+  margin: 0;
+  padding: 0;
+}
 
+html {
+  scroll-behavior: smooth;
+}
+} */
 /*# sourceMappingURL=estilo.css.map */
