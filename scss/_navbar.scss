@@ -4,7 +4,7 @@
   height: 60px;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(30, 223, 62);
+  background-color: #1D1D1D;
   .logoNavBar {
     padding-left: 20px;
   }
@@ -15,15 +15,36 @@
     display: flex;
     li {
       display: flex;
+      margin-right: 100px;
       a {
         display: flex;
         text-decoration: none;
-        color: black;
+        color: #FFFFFF;
         padding: 10px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+
         &:hover {
           background-color: #f5f5f5;
         }
       }
     }
+  }
+  button{
+    background: #CB97FB;
+    border-radius: 25px;  
+    width: 156px;
+    height: 45px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1D1D1D;
+
   }
 }
