@@ -1,24 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
-main {
-  overflow: hidden; }
-
 .fondoHome {
   width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 70px; }
   .fondoHome .imagenFondo {
-    width: 90%;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    background-color: #ffffff; }
     .fondoHome .imagenFondo img {
-      width: 100%;
-      height: 100%; }
+      width: 90%; }
 
 .comoFunciona {
-  width: 100%;
+  width: 100vw;
   height: 727px;
   background-color: #f7effe;
   display: flex;
@@ -31,7 +29,8 @@ main {
     width: 95%;
     height: 75%;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    margin-top: 114px; }
     .comoFunciona .comoFuncionaInfo .comoFuncionaBoxContainer {
       display: flex;
       justify-content: space-evenly;
@@ -81,6 +80,14 @@ main {
     .modaCircularContainer .modaCircularInfo .modaCircularIconos {
       height: 50%;
       margin-top: 100px; }
+      .modaCircularContainer .modaCircularInfo .modaCircularIconos .modaCircularIconosIconos {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding-left: 10px; }
+        .modaCircularContainer .modaCircularInfo .modaCircularIconos .modaCircularIconosIconos img {
+          margin-right: 120px; }
       .modaCircularContainer .modaCircularInfo .modaCircularIconos h4 {
         font-family: "Jost";
         font-style: normal;
@@ -89,7 +96,10 @@ main {
         line-height: 36px; }
   .modaCircularContainer .modaCircularImagen {
     width: 50%;
-    height: 100%; }
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
 
 .PrendasUnicas {
   width: 100%;
@@ -132,20 +142,20 @@ main {
         height: 100%; }
 
 .footer p {
-  background-color: #1D1D1D;
-  font-family: 'Jost';
+  background-color: #1d1d1d;
+  font-family: "Jost";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
-  color: #FFFFFF; }
+  color: #ffffff; }
 
 .footer .links {
   display: flex;
   width: 100%;
   height: 300px;
-  background-color: #1D1D1D;
+  background-color: #1d1d1d;
   justify-content: space-between; }
   .footer .links .nav {
     width: 30%;
@@ -157,14 +167,14 @@ main {
         margin-bottom: 14px; }
         .footer .links .nav ul li a {
           text-decoration: none;
-          font-family: 'Jost';
+          font-family: "Jost";
           font-style: normal;
           font-weight: 500;
           font-size: 12px;
           line-height: 17px;
           display: flex;
           align-items: center;
-          color: #FFFFFF;
+          color: #ffffff;
           margin-left: 100px; }
   .footer .links .politicas {
     width: 30%;
@@ -176,32 +186,37 @@ main {
         margin-bottom: 14px; }
         .footer .links .politicas ul li a {
           text-decoration: none;
-          font-family: 'Jost';
+          font-family: "Jost";
           font-style: normal;
           font-weight: 500;
           font-size: 12px;
           line-height: 17px;
           display: flex;
           align-items: center;
-          color: #FFFFFF; }
+          color: #ffffff; }
   .footer .links .redes {
     width: 30%;
     height: 100%;
     text-decoration: none;
-    font-family: 'Jost';
+    font-family: "Jost";
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 17px;
     display: flex;
     align-items: center;
-    color: #FFFFFF; }
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px; }
+    .footer .links .redes img {
+      padding-top: 20px; }
   .footer .links .derechos p {
     display: block;
     text-align: center;
     align-items: center;
     justify-content: center;
-    color: #FFFFFF; }
+    color: #ffffff; }
 
 .navBar {
   display: flex;

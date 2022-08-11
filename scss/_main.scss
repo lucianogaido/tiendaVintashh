@@ -1,27 +1,25 @@
-//MAIN DEL INDEX
-main {
-  overflow: hidden;
-}
 .fondoHome {
   width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 70px;
+
   .imagenFondo {
-    width: 90%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #ffffff;
 
     img {
-      width: 100%;
-      height: 100%;
+      width: 90%;
     }
   }
 }
 .comoFunciona {
-  width: 100%;
+  width: 100vw;
   height: 727px;
   background-color: #f7effe;
   display: flex;
@@ -36,6 +34,7 @@ main {
     height: 75%;
     display: flex;
     flex-direction: column;
+    margin-top: 114px;
     .comoFuncionaBoxContainer {
       display: flex;
       justify-content: space-evenly;
@@ -93,6 +92,16 @@ main {
     .modaCircularIconos {
       height: 50%;
       margin-top: 100px;
+      .modaCircularIconosIconos {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        img {
+          margin-right: 120px;
+        }
+      }
       h4 {
         font-family: "Jost";
         font-style: normal;
@@ -105,6 +114,9 @@ main {
   .modaCircularImagen {
     width: 50%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 .PrendasUnicas {
