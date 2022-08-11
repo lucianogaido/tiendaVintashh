@@ -55,12 +55,34 @@ main {
     background-color: #fff;
     border: 3px solid #cb97fb;
     box-shadow: 4px 6px 4px 0px #00000040;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+      font-family: "Jost";
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 126%;
+      font-style: normal;
+
+      text-align: center;
+
+      color: #1d1d1d;
+    }
+    p,
+    img {
+      padding: 30px;
+    }
+    img {
+      margin-top: 50px;
+    }
   }
 }
 
 .modaCircular {
   width: 100vw;
-  height: 108.69565217391305vh;
+  height: 138.69565217391305vh;
   background-color: #fff;
   display: flex;
   align-items: center;
@@ -94,12 +116,13 @@ main {
     }
     .modaCircularIconos {
       height: 50%;
-      margin-top: 100px;
+      margin-top: dpx;
       .modaCircularIconosIconos {
         width: 100%;
         height: 100%;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
+        padding-top: 50px;
         padding-left: 10px;
         img {
           margin-right: 120px;
@@ -120,6 +143,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -50px;
   }
 }
 .PrendasUnicas {
