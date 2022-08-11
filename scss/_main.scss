@@ -1,10 +1,13 @@
+main {
+  overflow: hidden;
+}
 .fondoHome {
   width: 100vw;
-  height: 100vh;
+  height: 108.99550224887557vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 70px;
+  background-color: #fff;
 
   .imagenFondo {
     width: 100%;
@@ -20,7 +23,7 @@
 }
 .comoFunciona {
   width: 100vw;
-  height: 727px;
+  height: 108.99550224887557vh;
   background-color: #f7effe;
   display: flex;
   font-family: "OldSport", sans-serif;
@@ -34,7 +37,7 @@
     height: 75%;
     display: flex;
     flex-direction: column;
-    margin-top: 114px;
+    margin-top: 17.09145427286357vh;
     .comoFuncionaBoxContainer {
       display: flex;
       justify-content: space-evenly;
@@ -46,8 +49,8 @@
     }
   }
   .comoFuncionaBox {
-    height: 406px;
-    width: 401px;
+    height: 60.869565217391305vh;
+    width: 29.355783308931187vw;
     border-radius: 15px;
     background-color: #fff;
     border: 3px solid #cb97fb;
@@ -56,8 +59,8 @@
 }
 
 .modaCircular {
-  width: 100%;
-  height: 825px;
+  width: 100vw;
+  height: 108.69565217391305vh;
   background-color: #fff;
   display: flex;
   align-items: center;
@@ -121,7 +124,7 @@
 }
 .PrendasUnicas {
   width: 100%;
-  height: 725px;
+  height: 108.69565217391305vh;
   background-color: #f7effe;
   font-family: "OldSport", sans-serif;
   display: flex;
@@ -138,7 +141,11 @@
       height: 100%;
       display: flex;
       flex-direction: column;
-      margin-top: 120px;
+
+      div {
+        width: 80%;
+      }
+
       h2 {
         font-weight: 400;
         line-height: 40px;
@@ -160,10 +167,13 @@
         height: 56px;
         margin-top: 120px;
       }
+    }
+    .PrendasUnicasImagen {
+      width: 50%;
+      height: 100%;
 
-      .PrendasUnicasImagen {
-        width: 50%;
-        height: 100%;
+      img {
+        margin-top: -200px;
       }
     }
   }
