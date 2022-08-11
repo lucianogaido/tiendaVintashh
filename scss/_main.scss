@@ -20,6 +20,9 @@ main {
       width: 90%;
     }
   }
+  .imagenFondoMobile {
+    display: none;
+  }
 }
 .comoFunciona {
   width: 100vw;
@@ -198,6 +201,23 @@ main {
 
       img {
         margin-top: -200px;
+      }
+    }
+  }
+}
+@media (max-width: 765px) {
+  .fondoHome {
+    height: 52.96vh;
+    .imagenFondo {
+      display: none;
+    }
+    .imagenFondoMobile {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 90%;
       }
     }
   }
