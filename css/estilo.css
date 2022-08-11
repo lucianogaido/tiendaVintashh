@@ -1,24 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
-.slogan {
-  width: 100%;
-  height: 600px;
-  background-color: gray;
-  display: flex; }
-  .slogan .sloganEscrito {
-    width: 50%;
-    height: 100%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; }
-  .slogan .sloganImagen {
-    width: 50%;
-    height: 100%;
-    background-color: #f7effe;
+main {
+  overflow: hidden; }
+
+.fondoHome {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .fondoHome .imagenFondo {
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center; }
+    .fondoHome .imagenFondo img {
+      width: 100%;
+      height: 100%; }
 
 .comoFunciona {
   width: 100%;
