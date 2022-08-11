@@ -1,16 +1,87 @@
 .mainCompraVenta {
   width: 100%;
-  .comprar {
-    width: 100%;
-    height: 500px;
-    background-color: gray;
+  .compraVenta {
+    width: 95%;
+    height: 75%;
     display: flex;
+    flex-direction: column;
+    margin-top: 17.09145427286357vh;
+    .compraVentaBoxContainer {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-top: 50px;
+    }
+    p {
+      font-size: 40px;
+    }
   }
-
- .vender{
+  .compraVentaBox {
+    height: 25.375em;
+    width: 25.063em;
+    border-radius: 15px;
+    background-color: #fff;
+    border: 3px solid #cb97fb;
+    box-shadow: 4px 6px 4px 0px #00000040;
+    .cardsCompraVenta{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding-top: 6.693989071038251vh;
+  
+      .detalleCard{
+        padding-top: 3.121584699453552vh;
+        padding-left: 3.215434083601286vw;
+        padding-right: 3.215434083601286vw;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 126%;
+        text-align: center;
+        color: #1D1D1D;
+      }
+  
+    }
+  }
+  .descripcion{
     width: 100%;
-    height: 500px;
-    background-color: gray;
+    height: 47.131147540983605vh ;
     display: flex;
-  }
+    align-items: center;
+    .detalle{
+      display: flex;
+      align-items:flex-start;
+      width: 33.3333333333333%;
+      height: 100%;
+      padding-top: 10.92896174863388vh;
+      padding-left: 4.823151125401929vw;
+      
+      .tituloDetalle{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        color: #1D1D1D;
+      }
+      .textoDetalle{
+        width: 257px;
+        height: 100px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 122%;
+        color: #000000;
+      }
+      img{
+        width: 41px;
+        margin-right: 1.607717041800643vw;
+      }
+    }
+  } 
  }
