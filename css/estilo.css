@@ -19,12 +19,9 @@ main {
       width: 90%; }
   .fondoHome .imagenFondoMobile {
     display: none; }
-<<<<<<< HEAD
-=======
 
 .comoFuncionaMobile {
   display: none; }
->>>>>>> 6b240497386de85fa736496801a5cd5f610a4600
 
 .comoFunciona {
   width: 100vw;
@@ -46,12 +43,8 @@ main {
       display: flex;
       justify-content: space-evenly;
       align-items: center;
-<<<<<<< HEAD
-      margin-top: 50px; }
-=======
       margin-top: 50px;
       flex-wrap: nowrap; }
->>>>>>> 6b240497386de85fa736496801a5cd5f610a4600
     .comoFunciona .comoFuncionaInfo p {
       font-size: 40px; }
   .comoFunciona .comoFuncionaBox {
@@ -188,9 +181,6 @@ main {
       align-items: center;
       justify-content: center; }
       .fondoHome .imagenFondoMobile img {
-<<<<<<< HEAD
-        width: 90%; } }
-=======
         width: 90%; }
   .comoFunciona {
     display: none; }
@@ -246,7 +236,6 @@ main {
     font-size: 30px; }
   .modaCircular .modaCircularContainer .modaCircularInfo .modaCircularTexto p {
     font-size: 18px; } }
->>>>>>> 6b240497386de85fa736496801a5cd5f610a4600
 
 .footer p {
   background-color: #1d1d1d;
@@ -446,7 +435,6 @@ main {
 
 .mainCompraVenta {
   width: 100%; }
-<<<<<<< HEAD
   .mainCompraVenta .compraVenta {
     width: 95%;
     height: 75%;
@@ -517,18 +505,6 @@ main {
       .mainCompraVenta .descripcion .detalle img {
         width: 41px;
         margin-right: 1.607717041800643vw; }
-=======
-  .mainCompraVenta .comprar {
-    width: 100%;
-    height: 500px;
-    background-color: gray;
-    display: flex; }
-  .mainCompraVenta .vender {
-    width: 100%;
-    height: 500px;
-    background-color: gray;
-    display: flex; }
->>>>>>> 6b240497386de85fa736496801a5cd5f610a4600
 
 .mainColecciones {
   width: 100%; }
@@ -538,11 +514,7 @@ main {
     padding: 45px;
     margin-left: 2.6vw;
     margin-top: 50px;
-<<<<<<< HEAD
     background-image: url(../imagenes/imgColecciones/Foto1.png); }
-=======
-    background-color: aquamarine; }
->>>>>>> 6b240497386de85fa736496801a5cd5f610a4600
     .mainColecciones .prendasTop p {
       font-family: 'Jost', sans-serif;
       font-style: normal;
@@ -571,31 +543,19 @@ main {
       height: 412px;
       margin-left: 2.6vw;
       top: 550px;
-<<<<<<< HEAD
       background-image: url(../imagenes/imgColecciones/Foto2.png); }
-=======
-      background-color: aqua; }
->>>>>>> 6b240497386de85fa736496801a5cd5f610a4600
     .mainColecciones .colecciones .coleccion2 {
       width: 30vw;
       height: 412px;
       margin-left: 1.9vw;
       top: 550px;
-<<<<<<< HEAD
       background-image: url(../imagenes/imgColecciones/Foto3.png); }
-=======
-      background-color: aquamarine; }
->>>>>>> 6b240497386de85fa736496801a5cd5f610a4600
     .mainColecciones .colecciones .coleccion3 {
       width: 30vw;
       height: 412px;
       margin-left: 1.9vw;
       top: 550px;
-<<<<<<< HEAD
       background-image: url(../imagenes/imgColecciones/Foto4.png); }
-=======
-      background-color: gold; }
->>>>>>> 6b240497386de85fa736496801a5cd5f610a4600
 
 @font-face {
   font-family: "OldSport";
