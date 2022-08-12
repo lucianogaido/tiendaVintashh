@@ -376,7 +376,8 @@ main {
 .navBarMobile,
 .menuFlotante,
 .buttonMobile {
-  display: none; }
+  display: none;
+  z-index: 1; }
 
 @media (max-width: 765px) {
   .buttonMobile {
@@ -506,16 +507,16 @@ main {
         width: 41px;
         margin-right: 1.607717041800643vw; }
 
-.mainColecciones {
+.mainColecciones .mainColeccionesDesktop {
   width: 100%; }
-  .mainColecciones .prendasTop {
+  .mainColecciones .mainColeccionesDesktop .prendasTop {
     width: 95%;
     height: 412px;
     padding: 45px;
     margin-left: 2.6vw;
     margin-top: 50px;
     background-image: url(../imagenes/imgColecciones/Foto1.png); }
-    .mainColecciones .prendasTop p {
+    .mainColecciones .mainColeccionesDesktop .prendasTop p {
       font-family: 'Jost', sans-serif;
       font-style: normal;
       font-weight: 700px;
@@ -524,11 +525,11 @@ main {
       text-align: right;
       color: #FFFFFF;
       margin-top: 310px; }
-  .mainColecciones .colecciones {
+  .mainColecciones .mainColeccionesDesktop .colecciones {
     display: flex;
     margin-top: 4vh;
     margin-bottom: 4vh; }
-    .mainColecciones .colecciones p {
+    .mainColecciones .mainColeccionesDesktop .colecciones p {
       font-family: 'Jost', sans-serif;
       font-style: normal;
       font-weight: 700;
@@ -538,24 +539,72 @@ main {
       color: #FFFFFF;
       margin-top: 366px;
       margin-right: 17px; }
-    .mainColecciones .colecciones .coleccion1 {
+    .mainColecciones .mainColeccionesDesktop .colecciones .coleccion1 {
       width: 30vw;
       height: 412px;
       margin-left: 2.6vw;
       top: 550px;
       background-image: url(../imagenes/imgColecciones/Foto2.png); }
-    .mainColecciones .colecciones .coleccion2 {
+    .mainColecciones .mainColeccionesDesktop .colecciones .coleccion2 {
       width: 30vw;
       height: 412px;
       margin-left: 1.9vw;
       top: 550px;
       background-image: url(../imagenes/imgColecciones/Foto3.png); }
-    .mainColecciones .colecciones .coleccion3 {
+    .mainColecciones .mainColeccionesDesktop .colecciones .coleccion3 {
       width: 30vw;
       height: 412px;
       margin-left: 1.9vw;
       top: 550px;
       background-image: url(../imagenes/imgColecciones/Foto4.png); }
+
+.mainColecciones .mainMobile {
+  display: none; }
+
+@media (max-width: 765px) {
+  .mainColecciones .mainColeccionesDesktop {
+    display: none; }
+  .mainColecciones .mainMobile {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; }
+    .mainColecciones .mainMobile .prendasTop-mobile {
+      position: relative; }
+      .mainColecciones .mainMobile .prendasTop-mobile img {
+        width: 100%;
+        margin-top: 30px; }
+      .mainColecciones .mainMobile .prendasTop-mobile p {
+        position: absolute;
+        width: 350px;
+        height: 19px;
+        right: 40px;
+        top: 380px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: right;
+        color: #FFFFFF; }
+    .mainColecciones .mainMobile .colecciones-mobile .coleccion1-mobile, .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile, .mainColecciones .mainMobile .colecciones-mobile .coleccion3-mobile {
+      position: relative; }
+      .mainColecciones .mainMobile .colecciones-mobile .coleccion1-mobile img, .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile img, .mainColecciones .mainMobile .colecciones-mobile .coleccion3-mobile img {
+        width: 100%;
+        margin-top: 10px; }
+      .mainColecciones .mainMobile .colecciones-mobile .coleccion1-mobile p, .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile p, .mainColecciones .mainMobile .colecciones-mobile .coleccion3-mobile p {
+        position: absolute;
+        width: 350px;
+        height: 19px;
+        right: 40px;
+        top: 360px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: right;
+        color: #FFFFFF; } }
 
 @font-face {
   font-family: "OldSport";
