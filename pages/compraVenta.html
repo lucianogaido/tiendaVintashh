@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/8bac4a8dea.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../css/estilo.css" />
   <title>Compra-Venta</title>
 </head>
@@ -28,78 +29,183 @@
         <a href="./singUp.html"><img src="../imagenes/imgHome/Facebook.svg" alt="" /></a>
       </div>
     </nav>
+    <!-- <-- navBarMobile -->
+
+    <nav class="navBarMobile">
+      <i id="menu-flotante-btn" class="fa-solid fa-bars"></i>
+      <div>
+        <img src="../imagenes/imgHome/Instagram.svg" alt="" />
+        <img src="../imagenes/imgHome/TikTok.svg" alt="" />
+        <img src="../imagenes/imgHome/Facebook.svg" alt="" />
+      </div>
+    </nav>
+
+    <ul id="menuFlotante" class="menuFlotante">
+      <li><a href="../index.html">INICIO</a></li>
+      <li><a href="./compraVenta.html">COMPRAVENTA</a></li>
+      <li><a href="#">COLECCIONES</a></li>
+    </ul>
+
+    <button class="buttonMobile">
+      <img class="logoWhatsapp" src="../imagenes/imgHome/WhatsApp.svg" alt="" />
+      IR AL CATALOGO
+    </button>
+
+    <!-- <-- navBarMobile -->
   </header>
   <main class="mainCompraVenta">
-    <div style="background-color: #FFFFFF;" class="comoFunciona">
-      <div class="compraVenta">
-        <p>¿CÓMO COMPRAR?</p>
-        <div class="compraVentaBoxContainer">
-          <div class="compraVentaBox">
-            <div class="cardsCompraVenta">
-              <img src="../imagenes/imgCompraventa/Camisa.svg" alt="">
-              <p class="detalleCard">Echá un vistazo a nuestro catálogo en busca de una prenda que te guste. También podés mirar las colecciones o nuestras redes sociales. ¡Enamorate al primer vistazo!</p>
+    <!-- version desktop  -->
+    <div class="mainCompraVentaDesktop">
+      <div style="background-color: #FFFFFF;" class="comoFunciona">
+        <div class="compraVenta">
+          <p>¿CÓMO COMPRAR?</p>
+          <div class="compraVentaBoxContainer">
+            <div class="compraVentaBox">
+              <div class="cardsCompraVenta">
+                <img src="../imagenes/imgCompraventa/Camisa.svg" alt="">
+                <p class="detalleCard">Echá un vistazo a nuestro catálogo en busca de una prenda que te guste. También
+                  podés mirar las colecciones o nuestras redes sociales. ¡Enamorate al primer vistazo!</p>
+              </div>
+            </div>
+            <div class="compraVentaBox">
+              <div class="cardsCompraVenta">
+                <img src="../imagenes/imgCompraventa/Celular.svg" alt="">
+                <p class="detalleCard">Contactanos a través de Whatsapp o Instagram y contanos cuál es la prenda que
+                  querés adquirir. </p>
+              </div>
+            </div>
+            <div class="compraVentaBox">
+              <div class="cardsCompraVenta">
+                <img src="../imagenes/imgCompraventa/Box.svg" alt="">
+                <p class="detalleCard">Hacé el pago y recibí la prenda en la puerta de tu casa. ¡Así de fácil! Preparate
+                  para lucir de forma única.</p>
+              </div>
             </div>
           </div>
-          <div class="compraVentaBox">
-            <div class="cardsCompraVenta">
-              <img src="../imagenes/imgCompraventa/Celular.svg" alt="">
-              <p class="detalleCard">Contactanos a través de Whatsapp o Instagram y contanos cuál es la prenda que querés adquirir. </p>
+          <button>
+            <img class="logoWhatsapp" src="../imagenes/imgHome/WhatsApp.svg" alt="logoWhatsapp" />
+            VER EL CATALOGO
+          </button>
+        </div>
+      </div>
+      <div class="comoFunciona">
+        <div class="compraVenta">
+          <p>¿CÓMO VENDER?</p>
+          <div class="compraVentaBoxContainer">
+            <div class="compraVentaBox">
+              <div class="cardsCompraVenta">
+                <img src="../imagenes/imgCompraventa/Camison.svg" alt="">
+                <p class="detalleCard">Buscá una prenda que ya no uses y esté en buen estado. Nos sirve ropa de
+                  cualquier época y estilo, lo importante es darles una segunda vida.
+                </p>
+              </div>
+            </div>
+            <div class="compraVentaBox">
+              <div class="cardsCompraVenta">
+                <img src="../imagenes/imgCompraventa/Celular.svg" alt="">
+                <p class="detalleCard">Ponete en contacto con nosotros a través de Whatsapp o Instagram y y te
+                  indicaremos cómo proceder. Te pediremos fotografías de la prenda en buena calidad con luz. </p>
+              </div>
+            </div>
+            <div class="compraVentaBox">
+              <div class="cardsCompraVenta">
+                <img src="../imagenes/imgCompraventa/Credit-card.svg" alt="">
+                <p class="detalleCard">Recibí el pago por la prenda y ganá algunos ingresos extras dando una segunda
+                  vida a tu ropa. Además, ayudás a disminuir la contaminación de la industria de la indumentaria.
+                  ¡Gracias!</p>
+              </div>
             </div>
           </div>
-          <div class="compraVentaBox">
-            <div class="cardsCompraVenta">
-              <img src="../imagenes/imgCompraventa/Box.svg" alt="">
-              <p class="detalleCard">Hacé el pago y recibí la prenda en la puerta de tu casa. ¡Así de fácil! Preparate para lucir de forma única.</p>
-            </div>
-          </div>
+          <button>
+            <img class="logoWhatsapp" src="../imagenes/imgHome/WhatsApp.svg" alt="logoWhatsapp" />
+            VER EL CATALOGO
+          </button>
+        </div>
+      </div>
+      <div class="descripcion">
+        <div class="detalle">
+          <img src="../imagenes/imgCompraventa/Camion.svg" alt="camion">
+          <p class="textoDetalle"><span class="tituloDetalle">TE LO ENVIAMOS A CASA</span> Desde Tienda Vintashh nos
+            encargamos de que las prendas te lleguen a casa en perfecto estado. Disponemos de las mejores opciones de
+            envío.</p>
+        </div>
+        <div class="detalle">
+          <img src="../imagenes/imgCompraventa/Me gusta.svg" alt="">
+          <p class="textoDetalle"><span class="tituloDetalle">Ropa vintage única</span> Las prendas que encontrarás acá
+            son originales y únicas. ¡No verás otra igual! Son intervenidas por una modista profesional y pensadas para
+            vos.</p>
+        </div>
+        <div class="detalle">
+          <img src="../imagenes/imgCompraventa/Credit-card minimalista.svg" alt="">
+          <p class="textoDetalle"><span class="tituloDetalle">Diferentes formas de pago</span> Te ofrecemos pasarelas de
+            pago con toda la seguridad para que puedas comprar con toda la tranquilidad.</p>
         </div>
       </div>
     </div>
-    <div class="comoFunciona">
-      <div class="compraVenta">
-        <p>¿CÓMO VENDER?</p>
-        <div class="compraVentaBoxContainer">
-          <div class="compraVentaBox">
-            <div class="cardsCompraVenta">
-              <img src="../imagenes/imgCompraventa/Camison.svg" alt="">
-              <p class="detalleCard">Buscá una prenda que ya no uses y esté en buen estado. Nos sirve ropa de cualquier época y estilo, lo importante es darles una segunda vida.
-              </p>
-            </div>
-          </div>
-          <div class="compraVentaBox">
-            <div class="cardsCompraVenta">
-              <img src="../imagenes/imgCompraventa/Celular.svg" alt="">
-              <p class="detalleCard">Ponete en contacto con nosotros a través de Whatsapp o Instagram y y te indicaremos cómo proceder. Te pediremos fotografías de la prenda en buena calidad con luz. </p>
-            </div>
-          </div>
-          <div class="compraVentaBox">
-            <div class="cardsCompraVenta">
-              <img src="../imagenes/imgCompraventa/Credit-card.svg" alt="">
-              <p class="detalleCard">Recibí el pago por la prenda y ganá algunos ingresos extras dando una segunda vida a tu ropa. Además, ayudás a disminuir la contaminación de la industria de la indumentaria. ¡Gracias!</p>
-            </div>
-          </div>
+    <!-- version desktop  -->
+    <!-- version mobile  -->
+    <div class="mainCompraVentaMobile">
+      <div class="comoComprarMobile">
+        <p class="titulo">¿CÓMO COMPRAR?</p>
+        <div class="descripcion">
+          <img src="../imagenes/imgCompraventa/Camisa-Mobile.svg" alt="camisa">
+          <p>Echá un vistazo a nuestro catálogo en busca de una prenda que te guste. También podés mirar las colecciones
+            o nuestras redes sociales. ¡Enamorate al primer vistazo!</p>
+        </div>
+        <div class="descripcion">
+          <img style="margin-right: 7.00125vw; padding-left:1.02125vw;"
+            src="../imagenes/imgCompraventa/Celular-Mobile.svg" alt="">
+          <p>Contactanos a través de Whatsapp o Instagram y contanos cuál es la prenda que querés adquirir. </p>
+        </div>
+        <div class="descripcion">
+          <img src="../imagenes/imgCompraventa/Box-Mobile.svg" alt="">
+          <p>Hacé el pago y recibí la prenda en la puerta de tu casa. ¡Así de fácil! Preparate para lucir de forma
+            única.</p>
+        </div>
+        <button> <img  class="wpIcono" src="../imagenes/whatsapp.png" alt="whatsapp"> VER EL
+          CATALOGO</button>
+      </div>
+      <div class="comoVenderMobile">
+        <p class="titulo">¿CÓMO VENDER?</p>
+        <div class="descripcion">
+          <img src="../imagenes/imgCompraventa/Camison-Mobile.svg" alt="camisa">
+          <p>Echá un vistazo a nuestro catálogo en busca de una prenda que te guste. También podés mirar las colecciones
+            o nuestras redes sociales. ¡Enamorate al primer vistazo!</p>
+        </div>
+        <div class="descripcion">
+          <img style="margin-right: 7.00125vw; padding-left:1.02125vw;" src="../imagenes/imgCompraventa/Celular-Mobile.svg" alt="">
+          <p>Contactanos a través de Whatsapp o Instagram y contanos cuál es la prenda que querés adquirir. </p>
+        </div>
+        <div class="descripcion">
+          <img src="../imagenes/imgCompraventa/Credit-card-Mobile.svg" alt="">
+          <p>Hacé el pago y recibí la prenda en la puerta de tu casa. ¡Así de fácil! Preparate para lucir de forma
+            única.</p>
+        </div>
+        <button> <img class="wpIcono" src="../imagenes/whatsapp.png" alt="whatsapp">¡QUIERO
+          VENDER!</button>
+      </div>
+      <div class="descripcion">
+        <div class="detalle">
+          <img src="../imagenes/imgCompraventa/Camion.svg" alt="camion">
+          <p class="textoDetalle"><span class="tituloDetalle">TE LO ENVIAMOS A CASA</span> Desde Tienda Vintashh nos
+            encargamos de que las prendas te lleguen a casa en perfecto estado. Disponemos de las mejores opciones de
+            envío.</p>
+        </div>
+        <div class="detalle">
+          <img src="../imagenes/imgCompraventa/Me gusta.svg" alt="">
+          <p class="textoDetalle"><span class="tituloDetalle">Ropa vintage única</span> Las prendas que encontrarás acá
+            son originales y únicas. ¡No verás otra igual! Son intervenidas por una modista profesional y pensadas para
+            vos.</p>
+        </div>
+        <div class="detalle">
+          <img src="../imagenes/imgCompraventa/Credit-card minimalista.svg" alt="">
+          <p class="textoDetalle"><span class="tituloDetalle">Diferentes formas de pago</span> Te ofrecemos pasarelas de
+            pago con toda la seguridad para que puedas comprar con toda la tranquilidad.</p>
         </div>
       </div>
     </div>
-    <div class="descripcion">
-      <div class="detalle">
-        <img src="../imagenes/imgCompraventa/Camion.svg" alt="camion">
-        <p class="textoDetalle"><span class="tituloDetalle">TE LO ENVIAMOS A CASA</span> Desde Tienda Vintashh nos
-          encargamos de que las prendas te lleguen a casa en perfecto estado. Disponemos de las mejores opciones de
-          envío.</p>
-      </div>
-      <div class="detalle">
-        <img src="../imagenes/imgCompraventa/Me gusta.svg" alt="">
-        <p class="textoDetalle"><span class="tituloDetalle">Ropa vintage única</span> Las prendas que encontrarás acá
-          son originales y únicas. ¡No verás otra igual! Son intervenidas por una modista profesional y pensadas para
-          vos.</p>
-      </div>
-      <div class="detalle">
-        <img src="../imagenes/imgCompraventa/Credit-card minimalista.svg" alt="">
-        <p class="textoDetalle"><span class="tituloDetalle">Diferentes formas de pago</span> Te ofrecemos pasarelas de
-          pago con toda la seguridad para que puedas comprar con toda la tranquilidad.</p>
-      </div>
-    </div>
+    <!-- version mobile  -->
+
   </main>
   <footer class="footer">
     <div class="links">
@@ -127,6 +233,7 @@
     </div>
     <p>Tienda Vintashh 2022 - Todos los derechos reservados</p>
   </footer>
+  <script src="../main.js"></script>
 </body>
 
 </html>
