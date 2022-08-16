@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #1d1d1d;
+  z-index: 100s;
   .logoNavBar {
     padding-left: 20px;
   }
@@ -72,7 +73,6 @@
 .buttonMobile {
   display: none;
   z-index: 1;
-
 }
 
 @media (max-width: 765px) {

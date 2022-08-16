@@ -2,6 +2,9 @@ main {
   overflow: hidden;
 }
 .fondoHome {
+  // position: absolute;
+  // top: 0;
+  // right: 0;
   width: 100vw;
   height: 108.99550224887557vh;
   display: flex;
@@ -15,9 +18,10 @@ main {
     align-items: center;
     justify-content: center;
     background-color: #ffffff;
+    margin-top: -230px;
 
     img {
-      width: 90%;
+      width: 100%;
     }
   }
   .imagenFondoMobile {
