@@ -268,10 +268,12 @@ main {
   .modaCircular {
     display: none; }
   .moodaCircularMovile {
-    display: block;
+    display: flex;
     height: 789px;
     background-color: #fff;
-    padding-top: 43px; }
+    padding-top: 43px;
+    flex-direction: column;
+    align-items: center; }
     .moodaCircularMovile .circularTitulo {
       width: 278px;
       font-family: "oldsport";
@@ -280,7 +282,8 @@ main {
       line-height: 20px;
       font-weight: 400;
       color: #1d1d1d;
-      background-color: #fcfd9a; }
+      background-color: #fcfd9a;
+      margin-left: -50px; }
     .moodaCircularMovile .primerParafo {
       display: flex;
       padding-top: 23px;
@@ -290,7 +293,10 @@ main {
       font-size: 16px;
       line-height: 126%;
       color: #1d1d1d;
-      font-family: "Jost"; }
+      font-family: "Jost";
+      width: 90%;
+      justify-content: center;
+      align-items: center; }
     .moodaCircularMovile .segundoParrafo {
       padding-bottom: 40px;
       font-style: normal;
@@ -298,7 +304,10 @@ main {
       font-size: 16px;
       line-height: 126%;
       color: #1d1d1d;
-      font-family: "Jost"; }
+      font-family: "Jost";
+      width: 90%;
+      justify-content: center;
+      align-items: center; }
     .moodaCircularMovile .tercerParrafo {
       padding-bottom: 40px;
       font-family: "Jost";
@@ -312,9 +321,7 @@ main {
         width: 100%;
         padding-top: 30px;
         display: flex;
-        justify-content: center; }
-        .moodaCircularMovile .tercerParrafo .tercerParrafoIconos img {
-          padding: 25px; }
+        justify-content: space-around; }
         .moodaCircularMovile .tercerParrafo .tercerParrafoIconos p {
           font-family: "Jost";
           font-style: normal;
@@ -322,7 +329,64 @@ main {
           font-size: 9px;
           line-height: 126%;
           text-align: center;
-          color: #000000; } }
+          color: #000000; }
+  .PrendasUnicas {
+    display: none; }
+  .prendasUnicasMobile {
+    height: 555px;
+    background-color: #f7effe; }
+    .prendasUnicasMobile .recibi {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center; }
+      .prendasUnicasMobile .recibi h3 {
+        font-family: "oldsport";
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        color: #1d1d1d;
+        font-style: normal;
+        margin-top: 50px;
+        width: 95%;
+        background-color: #fcfd9a; }
+      .prendasUnicasMobile .recibi p {
+        width: 90%;
+        margin-top: 23px;
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 126%;
+        color: #000000;
+        margin-top: 30px; }
+    .prendasUnicasMobile .seccionBoton {
+      position: relative; }
+    .prendasUnicasMobile button {
+      height: 48px;
+      left: 25px;
+      background: #cb97fb;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 25px;
+      width: 222px;
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #000000;
+      font-family: "Jost";
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 22px;
+      margin-top: 50px; }
+      .prendasUnicasMobile button img {
+        padding-right: 10px; }
+    .prendasUnicasMobile .chicamobile {
+      width: 90%;
+      position: absolute;
+      top: -40px;
+      right: 10px; } }
 
 .footer p {
   background-color: #1d1d1d;
@@ -475,11 +539,12 @@ main {
     width: 100%;
     background: #cb97fb;
     box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: "Jost";
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     line-height: 26px;
     display: flex;
