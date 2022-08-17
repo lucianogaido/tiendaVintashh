@@ -336,6 +336,7 @@ main {
   .PrendasUnicas {
     display: none; }
   .prendasUnicasMobile {
+    display: block;
     height: 555px;
     background-color: #f7effe; }
     .prendasUnicasMobile .recibi {
