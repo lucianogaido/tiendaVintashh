@@ -214,7 +214,7 @@ main {
       .PrendasUnicas .PrendasUnicasContainer .PrendasUnicasImagen img {
         margin-top: -150px; }
 
-@media (max-width: 765px) {
+@media (max-width: 991px) {
   .fondoHome {
     height: 52.96vh; }
     .fondoHome .imagenFondo {
