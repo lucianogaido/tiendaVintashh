@@ -9,14 +9,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 @font-face {
   font-family: "OldSport";
-  src: url(/fuentes/OldSport.ttf);
+  src: url(../fuentes/OldSport.ttf);
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 
 body {

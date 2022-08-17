@@ -185,7 +185,9 @@ main {
   justify-content: center;
   margin-top: -50px;
 }
-
+.prendasUnicasMobile {
+  display: none;
+}
 .PrendasUnicas {
   width: 100%;
   height: 108.69565217391305vh;
@@ -223,7 +225,7 @@ main {
         font-size: 20px;
         line-height: 126%;
         font-style: normal;
-        margin-top: 120px;
+        margin-top: 55px;
       }
       button {
         width: 43.55vw;
@@ -232,7 +234,7 @@ main {
         box-shadow: 0px 4px 4px 0px #00000040;
         border-radius: 25px;
         height: 56px;
-        margin-top: 120px;
+        margin-top: 50px;
         font-family: "Jost";
         display: flex;
         align-items: center;
@@ -250,7 +252,7 @@ main {
       height: 100%;
 
       img {
-        margin-top: -200px;
+        margin-top: -150px;
       }
     }
   }
