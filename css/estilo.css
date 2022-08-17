@@ -75,6 +75,7 @@ main {
       margin-top: 50px; }
 
 .modaCircular {
+  display: block;
   width: 100vw;
   height: 158.69565217391305vh;
   background-color: #fff;
@@ -82,6 +83,9 @@ main {
   align-items: center;
   justify-content: center;
   font-family: "OldSport", sans-serif; }
+
+.moodaCircularMovile {
+  display: none; }
 
 .modaCircularContainer {
   display: flex;
@@ -220,43 +224,36 @@ main {
         width: 90%; }
   .comoFunciona {
     display: none; }
-  .comoFuncionaTituloMobile p {
-    height: 20px;
-    font-family: "OldSport";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
-    color: #1d1d1d;
-    margin-top: 41px;
-    padding-left: 40px; }
+  .comoFuncionaTituloMobile {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .comoFuncionaTituloMobile p {
+      height: 20px;
+      font-family: "OldSport";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 20px;
+      color: #1d1d1d;
+      margin-top: 41px;
+      background-color: #fcfd9a; }
   .comoFuncionatextoMobile {
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly; }
+    justify-content: flex-start; }
   .comoFuncionaMobile {
     display: block;
-    height: 66.56671664167916vh; }
+    height: 444px; }
     .comoFuncionaMobile .boxMobile {
       display: flex;
       width: 90%;
       justify-content: center;
-      align-items: center; }
-      .comoFuncionaMobile .boxMobile .boxMobileImg {
-        width: 30%;
-        width: 82px;
-        height: 83px;
-        background: #ffffff;
-        border: 3px solid #cb97fb;
-        box-shadow: 3px 3px 7px rgba(148, 148, 148, 0.25);
-        border-radius: 15px;
-        display: flex;
-        align-items: center;
-        justify-content: center; }
-        .comoFuncionaMobile .boxMobile .boxMobileImg img {
-          width: 33px; }
+      align-items: center;
+      margin-top: 25px; }
       .comoFuncionaMobile .boxMobile .boxMobileTexto {
         width: 70%;
         font-style: normal;
@@ -268,10 +265,64 @@ main {
         color: #1d1d1d;
         font-family: "Jost";
         padding-left: 20px; }
-  .modaCircular .modaCircularContainer .modaCircularInfo .modaCircularTexto h3 {
-    font-size: 30px; }
-  .modaCircular .modaCircularContainer .modaCircularInfo .modaCircularTexto p {
-    font-size: 18px; } }
+  .modaCircular {
+    display: none; }
+  .moodaCircularMovile {
+    display: block;
+    height: 789px;
+    background-color: #fff;
+    padding-top: 43px; }
+    .moodaCircularMovile .circularTitulo {
+      width: 278px;
+      font-family: "oldsport";
+      font-style: normal;
+      font-size: 20px;
+      line-height: 20px;
+      font-weight: 400;
+      color: #1d1d1d;
+      background-color: #fcfd9a; }
+    .moodaCircularMovile .primerParafo {
+      display: flex;
+      padding-top: 23px;
+      padding-bottom: 11px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 126%;
+      color: #1d1d1d;
+      font-family: "Jost"; }
+    .moodaCircularMovile .segundoParrafo {
+      padding-bottom: 40px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 126%;
+      color: #1d1d1d;
+      font-family: "Jost"; }
+    .moodaCircularMovile .tercerParrafo {
+      padding-bottom: 40px;
+      font-family: "Jost";
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+      text-transform: uppercase;
+      font-style: normal;
+      color: #1d1d1d; }
+      .moodaCircularMovile .tercerParrafo .tercerParrafoIconos {
+        width: 100%;
+        padding-top: 30px;
+        display: flex;
+        justify-content: center; }
+        .moodaCircularMovile .tercerParrafo .tercerParrafoIconos img {
+          padding: 25px; }
+        .moodaCircularMovile .tercerParrafo .tercerParrafoIconos p {
+          font-family: "Jost";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 9px;
+          line-height: 126%;
+          text-align: center;
+          color: #000000; } }
 
 .footer p {
   background-color: #1d1d1d;
@@ -755,7 +806,8 @@ main {
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
 
 body {
   background-color: #f5f5f5;

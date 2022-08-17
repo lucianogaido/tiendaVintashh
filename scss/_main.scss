@@ -95,6 +95,7 @@ main {
 }
 
 .modaCircular {
+  display: block;
   width: 100vw;
   height: 158.69565217391305vh;
   background-color: #fff;
@@ -102,6 +103,9 @@ main {
   align-items: center;
   justify-content: center;
   font-family: "OldSport", sans-serif;
+}
+.moodaCircularMovile {
+  display: none;
 }
 .modaCircularContainer {
   display: flex;
@@ -271,16 +275,20 @@ main {
     display: none;
   }
   .comoFuncionaTituloMobile {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     p {
       height: 20px;
       font-family: "OldSport";
       font-style: normal;
       font-weight: 400;
-      font-size: 20px;
+      font-size: 18px;
       line-height: 20px;
       color: #1d1d1d;
       margin-top: 41px;
-      padding-left: 40px;
+      background-color: #fcfd9a;
     }
   }
   .comoFuncionatextoMobile {
@@ -288,31 +296,18 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
   }
   .comoFuncionaMobile {
     display: block;
-    height: 66.56671664167916vh;
+    height: 444px;
     .boxMobile {
       display: flex;
       width: 90%;
       justify-content: center;
       align-items: center;
-      .boxMobileImg {
-        width: 30%;
-        width: 82px;
-        height: 83px;
-        background: #ffffff;
-        border: 3px solid #cb97fb;
-        box-shadow: 3px 3px 7px rgba(148, 148, 148, 0.25);
-        border-radius: 15px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        img {
-          width: 33px;
-        }
-      }
+      margin-top: 25px;
+
       .boxMobileTexto {
         width: 70%;
         font-style: normal;
@@ -328,15 +323,71 @@ main {
     }
   }
   .modaCircular {
-    .modaCircularContainer {
-      .modaCircularInfo {
-        .modaCircularTexto {
-          h3 {
-            font-size: 30px;
-          }
-          p {
-            font-size: 18px;
-          }
+    display: none;
+  }
+  .moodaCircularMovile {
+    display: block;
+    height: 789px;
+    background-color: #fff;
+    padding-top: 43px;
+
+    .circularTitulo {
+      width: 278px;
+      font-family: "oldsport";
+      font-style: normal;
+      font-size: 20px;
+      line-height: 20px;
+      font-weight: 400;
+      color: #1d1d1d;
+      background-color: #fcfd9a;
+    }
+    .primerParafo {
+      display: flex;
+      padding-top: 23px;
+      padding-bottom: 11px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 126%;
+      color: #1d1d1d;
+      font-family: "Jost";
+    }
+    .segundoParrafo {
+      padding-bottom: 40px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 126%;
+      color: #1d1d1d;
+      font-family: "Jost";
+    }
+    .tercerParrafo {
+      padding-bottom: 40px;
+      font-family: "Jost";
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+      text-transform: uppercase;
+      font-style: normal;
+      color: #1d1d1d;
+
+      .tercerParrafoIconos {
+        width: 100%;
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        img {
+          padding: 25px;
+        }
+
+        p {
+          font-family: "Jost";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 9px;
+          line-height: 126%;
+          text-align: center;
+          color: #000000;
         }
       }
     }
