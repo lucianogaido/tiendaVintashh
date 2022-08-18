@@ -477,7 +477,7 @@ main {
   justify-content: space-between;
   align-items: center;
   background-color: #1d1d1d;
-  z-index: 100s; }
+  z-index: 100; }
   .navBar .logoNavBar {
     padding-left: 20px; }
   .navBar .Login {
@@ -595,30 +595,53 @@ main {
 .mainCompraVenta .mainCompraVentaDesktop {
   width: 100%; }
   .mainCompraVenta .mainCompraVentaDesktop .comoFunciona {
-    padding-bottom: 80px; }
+    padding-bottom: 80px;
+    height: 100%; }
     .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta {
       width: 95%;
-      height: 100%;
       display: flex;
       flex-direction: column;
-      margin-top: 17.09145427286357vh;
-      margin-bottom: 20.09145427286357vh; }
+      margin-top: 100px; }
       .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta .compraVentaBoxContainer {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         margin-top: 50px; }
+      .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta .fondoTitulo {
+        width: 370px;
+        margin-top: 80px;
+        background: #FCFD9A;
+        border-radius: 15px; }
+        .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta .fondoTitulo h3 {
+          width: 347px;
+          font-family: 'OldSport';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 40px;
+          line-height: 40px;
+          margin-left: 10.19px; }
       .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta p {
         margin-top: 50px;
         font-size: 40px; }
       .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta button {
-        margin-left: 25%;
-        width: 595px;
-        background: #cb97fb;
-        box-shadow: 0px 4px 4px 0px #00000040;
-        border-radius: 25px;
+        margin-left: 30%;
+        width: 500px;
         height: 56px;
-        margin-top: 40px; }
+        background: #cb97fb;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        border: none;
+        margin-top: 40px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 60px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        color: #1D1D1D; }
     .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVentaBox {
       height: 25.375em;
       width: 25.063em;
@@ -771,22 +794,24 @@ main {
 
 .mainColecciones .mainColeccionesDesktop {
   width: 100%; }
-  .mainColecciones .mainColeccionesDesktop .prendasTop {
-    width: 95%;
-    height: 412px;
-    padding: 45px;
-    margin-left: 2.6vw;
-    margin-top: 50px;
-    background-image: url(../imagenes/imgColecciones/Foto1.png); }
-    .mainColecciones .mainColeccionesDesktop .prendasTop p {
-      font-family: 'Jost', sans-serif;
-      font-style: normal;
-      font-weight: 700px;
-      font-size: 25px;
-      line-height: 36px;
-      text-align: right;
-      color: #FFFFFF;
-      margin-top: 310px; }
+  .mainColecciones .mainColeccionesDesktop a {
+    text-decoration: none; }
+    .mainColecciones .mainColeccionesDesktop a .prendasTop {
+      width: 95%;
+      height: 412px;
+      padding: 45px;
+      margin-left: 2.6vw;
+      margin-top: 130px;
+      background-image: url(../imagenes/imgColecciones/Foto1.png); }
+      .mainColecciones .mainColeccionesDesktop a .prendasTop p {
+        font-family: 'Jost', sans-serif;
+        font-style: normal;
+        font-weight: 700px;
+        font-size: 25px;
+        line-height: 36px;
+        text-align: right;
+        color: #FFFFFF;
+        margin-top: 310px; }
   .mainColecciones .mainColeccionesDesktop .colecciones {
     display: flex;
     margin-top: 4vh;
@@ -849,12 +874,18 @@ main {
         line-height: 26px;
         text-align: right;
         color: #FFFFFF; }
-    .mainColecciones .mainMobile .colecciones-mobile .coleccion1-mobile, .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile, .mainColecciones .mainMobile .colecciones-mobile .coleccion3-mobile {
+    .mainColecciones .mainMobile .colecciones-mobile .coleccion1-mobile,
+    .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile,
+    .mainColecciones .mainMobile .colecciones-mobile .coleccion3-mobile {
       position: relative; }
-      .mainColecciones .mainMobile .colecciones-mobile .coleccion1-mobile img, .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile img, .mainColecciones .mainMobile .colecciones-mobile .coleccion3-mobile img {
+      .mainColecciones .mainMobile .colecciones-mobile .coleccion1-mobile img,
+      .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile img,
+      .mainColecciones .mainMobile .colecciones-mobile .coleccion3-mobile img {
         width: 100%;
         margin-top: 10px; }
-      .mainColecciones .mainMobile .colecciones-mobile .coleccion1-mobile p, .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile p, .mainColecciones .mainMobile .colecciones-mobile .coleccion3-mobile p {
+      .mainColecciones .mainMobile .colecciones-mobile .coleccion1-mobile p,
+      .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile p,
+      .mainColecciones .mainMobile .colecciones-mobile .coleccion3-mobile p {
         position: absolute;
         width: 350px;
         height: 19px;
@@ -867,6 +898,241 @@ main {
         line-height: 26px;
         text-align: right;
         color: #FFFFFF; } }
+
+.detalle {
+  display: flex;
+  margin-top: 137px;
+  margin-left: 86px;
+  width: 100%; }
+  .detalle .descripcion div {
+    width: 337.77px;
+    height: 45.67px;
+    background: #FCFD9A;
+    border-radius: 15px; }
+    .detalle .descripcion div h3 {
+      width: 299px;
+      height: 40px;
+      font-family: 'OldSport';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 40px;
+      margin-bottom: 50px; }
+  .detalle .descripcion p {
+    width: 583px;
+    height: 562px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 126%;
+    /* or 28px */
+    color: #1D1D1D; }
+  .detalle .aside {
+    margin-top: 50px;
+    margin-right: 104px;
+    margin-left: 56px; }
+    .detalle .aside img {
+      width: 500px;
+      height: 562px; }
+
+.fondoTitulo {
+  background: #FCFD9A;
+  width: 311.01px;
+  height: 45.67px;
+  border-radius: 15px;
+  margin-left: 86px;
+  display: flex;
+  justify-content: center; }
+  .fondoTitulo h4 {
+    font-family: 'OldSport';
+    width: 274px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #1D1D1D; }
+
+.sliderBody {
+  margin-top: 0px;
+  color: #fff;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  min-height: 100vh; }
+  .sliderBody .slider {
+    width: 100%; }
+    .sliderBody .slider input {
+      display: none; }
+    .sliderBody .slider .testimonials {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      min-height: 350px;
+      perspective: 1000px;
+      overflow: hidden; }
+      .sliderBody .slider .testimonials .item {
+        top: 0;
+        position: absolute;
+        box-sizing: border-box;
+        background-color: #0A0220;
+        width: 450px;
+        text-align: center;
+        transition: transform 0.4s;
+        -webkit-transform-style: preserve-3d;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        user-select: none;
+        cursor: pointer; }
+        .sliderBody .slider .testimonials .item img {
+          width: 80%; }
+    .sliderBody .slider .dots {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .sliderBody .slider .dots label {
+        display: block;
+        height: 5px;
+        width: 5px;
+        border-radius: 50%;
+        cursor: pointer;
+        background-color: #413B52;
+        margin: 7px; }
+
+/* First */
+#t-1:checked ~ .dots label[for="t-1"] {
+  transform: scale(2);
+  background-color: #fff; }
+
+#t-1:checked ~ .dots label[for="t-2"] {
+  transform: scale(1.5); }
+
+#t-1:checked ~ .testimonials label[for="t-1"] {
+  z-index: 4; }
+
+#t-1:checked ~ .testimonials label[for="t-2"] {
+  transform: translateX(300px) translateZ(-90px) rotateY(-15deg);
+  z-index: 3; }
+
+#t-1:checked ~ .testimonials label[for="t-3"] {
+  transform: translateX(600px) translateZ(-180px) rotateY(-25deg);
+  z-index: 2; }
+
+#t-1:checked ~ .testimonials label[for="t-4"] {
+  transform: translateX(900px) translateZ(-270px) rotateY(-35deg);
+  z-index: 1; }
+
+#t-1:checked ~ .testimonials label[for="t-5"] {
+  transform: translateX(1200px) translateZ(-360px) rotateY(-45deg); }
+
+/* Second */
+#t-2:checked ~ .dots label[for="t-1"] {
+  transform: scale(1.5); }
+
+#t-2:checked ~ .dots label[for="t-2"] {
+  transform: scale(2);
+  background-color: #fff; }
+
+#t-2:checked ~ .dots label[for="t-3"] {
+  transform: scale(1.5); }
+
+#t-2:checked ~ .testimonials label[for="t-1"] {
+  transform: translateX(-300px) translateZ(-90px) rotateY(15deg); }
+
+#t-2:checked ~ .testimonials label[for="t-2"] {
+  z-index: 3; }
+
+#t-2:checked ~ .testimonials label[for="t-3"] {
+  transform: translateX(300px) translateZ(-90px) rotateY(-15deg);
+  z-index: 2; }
+
+#t-2:checked ~ .testimonials label[for="t-4"] {
+  transform: translateX(600px) translateZ(-180px) rotateY(-25deg);
+  z-index: 1; }
+
+#t-2:checked ~ .testimonials label[for="t-5"] {
+  transform: translateX(900px) translateZ(-270px) rotateY(-35deg); }
+
+/* Third */
+#t-3:checked ~ .dots label[for="t-2"] {
+  transform: scale(1.5); }
+
+#t-3:checked ~ .dots label[for="t-3"] {
+  transform: scale(2);
+  background-color: #fff; }
+
+#t-3:checked ~ .dots label[for="t-4"] {
+  transform: scale(1.5); }
+
+#t-3:checked ~ .testimonials label[for="t-1"] {
+  transform: translateX(-600px) translateZ(-180px) rotateY(25deg); }
+
+#t-3:checked ~ .testimonials label[for="t-2"] {
+  transform: translateX(-300px) translateZ(-90px) rotateY(15deg); }
+
+#t-3:checked ~ .testimonials label[for="t-3"] {
+  z-index: 3; }
+
+#t-3:checked ~ .testimonials label[for="t-4"] {
+  transform: translateX(300px) translateZ(-90px) rotateY(-15deg);
+  z-index: 2; }
+
+#t-3:checked ~ .testimonials label[for="t-5"] {
+  transform: translateX(600px) translateZ(-180px) rotateY(-25deg); }
+
+/* Fourth */
+#t-4:checked ~ .dots label[for="t-3"] {
+  transform: scale(1.5); }
+
+#t-4:checked ~ .dots label[for="t-4"] {
+  transform: scale(2);
+  background-color: #fff; }
+
+#t-4:checked ~ .dots label[for="t-5"] {
+  transform: scale(1.5); }
+
+#t-4:checked ~ .testimonials label[for="t-1"] {
+  transform: translateX(-900px) translateZ(-270px) rotateY(35deg); }
+
+#t-4:checked ~ .testimonials label[for="t-2"] {
+  transform: translateX(-600px) translateZ(-180px) rotateY(25deg); }
+
+#t-4:checked ~ .testimonials label[for="t-3"] {
+  transform: translateX(-300px) translateZ(-90px) rotateY(15deg);
+  z-index: 2; }
+
+#t-4:checked ~ .testimonials label[for="t-4"] {
+  z-index: 3; }
+
+#t-4:checked ~ .testimonials label[for="t-5"] {
+  transform: translateX(300px) translateZ(-90px) rotateY(-15deg); }
+
+/* Fifth */
+#t-5:checked ~ .dots label[for="t-4"] {
+  transform: scale(1.5); }
+
+#t-5:checked ~ .dots label[for="t-5"] {
+  transform: scale(2);
+  background-color: #fff; }
+
+#t-5:checked ~ .testimonials label[for="t-1"] {
+  transform: translateX(-1200px) translateZ(-360px) rotateY(45deg); }
+
+#t-5:checked ~ .testimonials label[for="t-2"] {
+  transform: translateX(-900px) translateZ(-270px) rotateY(35deg);
+  z-index: 1; }
+
+#t-5:checked ~ .testimonials label[for="t-3"] {
+  transform: translateX(-600px) translateZ(-180px) rotateY(25deg);
+  z-index: 2; }
+
+#t-5:checked ~ .testimonials label[for="t-4"] {
+  transform: translateX(-300px) translateZ(-90px) rotateY(15deg);
+  z-index: 3; }
+
+#t-5:checked ~ .testimonials label[for="t-5"] {
+  z-index: 4; }
 
 @font-face {
   font-family: "OldSport";

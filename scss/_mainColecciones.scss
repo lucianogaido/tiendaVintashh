@@ -1,25 +1,29 @@
-.mainColecciones{
+.mainColecciones {
     .mainColeccionesDesktop {
         width: 100%;
 
-        .prendasTop {
-            width: 95%;
-            height: 412px;
-            padding: 45px;
-            margin-left: 2.6vw;
-            margin-top: 50px;
-            background-image: url(../imagenes/imgColecciones/Foto1.png);
+        a {
+            text-decoration: none;
 
-            p {
-                font-family: 'Jost', sans-serif;
-                font-style: normal;
-                font-weight: 700px;
-                font-size: 25px;
-                line-height: 36px;
-                text-align: right;
-                color: #FFFFFF;
-                margin-top: 310px;
+            .prendasTop {
+                width: 95%;
+                height: 412px;
+                padding: 45px;
+                margin-left: 2.6vw;
+                margin-top: 130px;
+                background-image: url(../imagenes/imgColecciones/Foto1.png);
 
+                p {
+                    font-family: 'Jost', sans-serif;
+                    font-style: normal;
+                    font-weight: 700px;
+                    font-size: 25px;
+                    line-height: 36px;
+                    text-align: right;
+                    color: #FFFFFF;
+                    margin-top: 310px;
+
+                }
             }
         }
 
@@ -46,7 +50,7 @@
                 // left: 45px;
                 margin-left: 2.6vw;
                 top: 550px;
-                background-image: url(../imagenes/imgColecciones/Foto2.png)
+                background-image: url(../imagenes/imgColecciones/Foto2.png);
             }
 
             .coleccion2 {
@@ -66,28 +70,33 @@
             }
         }
     }
+
     & .mainMobile {
         display: none;
-        }
-    
+    }
+
 
     @media (max-width: 765px) {
-        .mainColeccionesDesktop{
+        .mainColeccionesDesktop {
             display: none;
         }
+
         .mainMobile {
             display: block;
             align-items: center;
             justify-content: center;
             flex-direction: row;
-            .prendasTop-mobile{
+
+            .prendasTop-mobile {
                 position: relative;
-                img{
+
+                img {
                     width: 100%;
                     // height: 412px;
                     margin-top: 30px;
                 }
-                p{
+
+                p {
                     position: absolute;
                     width: 350px;
                     height: 19px;
@@ -104,28 +113,34 @@
                     color: #FFFFFF;
                 }
             }
-            .colecciones-mobile{
-                .coleccion1-mobile, .coleccion2-mobile,.coleccion3-mobile{
+
+            .colecciones-mobile {
+
+                .coleccion1-mobile,
+                .coleccion2-mobile,
+                .coleccion3-mobile {
                     position: relative;
-                    img{
+
+                    img {
                         width: 100%;
                         // height: 412px;
                         margin-top: 10px;
                     }
-                    p{
+
+                    p {
                         position: absolute;
                         width: 350px;
                         height: 19px;
                         right: 40px;
                         top: 360px;
-    
+
                         font-family: 'Jost';
                         font-style: normal;
                         font-weight: 700;
                         font-size: 18px;
                         line-height: 26px;
                         text-align: right;
-    
+
                         color: #FFFFFF;
                     }
                 }
