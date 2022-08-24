@@ -710,9 +710,7 @@ main {
       display: flex;
       align-items: flex-start;
       width: 33.3333333333333%;
-      height: 100%;
-      padding-top: 10.92896174863388vh;
-      padding-left: 4.823151125401929vw; }
+      height: 100%; }
       .mainCompraVenta .mainCompraVentaDesktop .descripcion .detalle .tituloDetalle {
         font-family: 'Jost';
         font-style: normal;
@@ -765,7 +763,7 @@ main {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-bottom: 71px;
+        margin-bottom: 50px;
         background: #cb97fb;
         box-shadow: 0px 4px 4px 0px #00000040;
         border-radius: 25px;
@@ -779,14 +777,14 @@ main {
         line-height: 22px; }
         .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile button .wpIcono, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile button .wpIcono {
           width: 28px; }
-      .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile .descripcion, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile .descripcion {
+      .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile .contenido, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile .contenido {
         margin-top: 20px;
         display: flex;
         align-items: center;
         height: 100px; }
-        .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile .descripcion img, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile .descripcion img {
+        .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile .contenido img, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile .contenido img {
           margin-right: 5.03125vw; }
-        .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile .descripcion p, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile .descripcion p {
+        .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile .contenido p, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile .contenido p {
           font-family: 'Jost';
           font-style: normal;
           font-weight: 400;
@@ -795,14 +793,16 @@ main {
           color: #1D1D1D;
           width: 70%; }
     .mainCompraVenta .mainCompraVentaMobile .descripcion {
-      width: 100%; }
+      width: 100%;
+      background-color: #F7EFFE; }
       .mainCompraVenta .mainCompraVentaMobile .descripcion .detalle {
-        background-color: #F7EFFE;
         display: flex;
         align-items: flex-start;
         height: 100%;
-        padding-top: 10.92896174863388vh;
-        padding-left: 4.823151125401929vw; }
+        margin-left: 5.03125vw;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        margin-top: 0px; }
         .mainCompraVenta .mainCompraVentaMobile .descripcion .detalle .tituloDetalle {
           font-family: 'Jost';
           font-style: normal;
@@ -826,7 +826,9 @@ main {
           color: #000000; }
         .mainCompraVenta .mainCompraVentaMobile .descripcion .detalle img {
           width: 41px;
-          margin-right: 1.607717041800643vw; } }
+          margin-right: 1.607717041800643vw;
+          margin-left: 0%;
+          padding-left: 0%; } }
 
 .mainColecciones .mainColeccionesDesktop {
   width: 100%; }
