@@ -208,6 +208,9 @@ main {
         line-height: 26px;
         font-style: normal;
         color: #1d1d1d; }
+        .PrendasUnicas .PrendasUnicasContainer .PrendasUnicasInfo button a {
+          text-decoration: none;
+          color: #000000; }
     .PrendasUnicas .PrendasUnicasContainer .PrendasUnicasImagen {
       width: 50%;
       height: 100%; }
@@ -384,6 +387,9 @@ main {
       font-size: 15px;
       line-height: 22px;
       margin-top: 50px; }
+      .prendasUnicasMobile button a {
+        text-decoration: none;
+        color: #000000; }
       .prendasUnicasMobile button img {
         padding-right: 10px; }
     .prendasUnicasMobile .chicamobile {
@@ -561,6 +567,9 @@ main {
     display: flex;
     align-items: center;
     justify-content: center; }
+    .navBar button a {
+      text-decoration: none;
+      color: #000; }
 
 .logoWhatsapp {
   width: 28px;
@@ -592,6 +601,9 @@ main {
     text-align: center;
     color: #1d1d1d;
     font-style: normal; }
+    .buttonMobile a {
+      text-decoration: none;
+      color: #000; }
   .navBar {
     display: none; }
   .navBarMobile {
@@ -959,12 +971,12 @@ main {
   .detalle .descripcion div {
     width: 337.77px;
     height: 45.67px;
-    background: #FCFD9A;
+    background: #fcfd9a;
     border-radius: 15px; }
     .detalle .descripcion div h3 {
       width: 299px;
       height: 40px;
-      font-family: 'OldSport';
+      font-family: "OldSport";
       font-style: normal;
       font-weight: 400;
       font-size: 40px;
@@ -973,13 +985,13 @@ main {
   .detalle .descripcion p {
     width: 583px;
     height: 562px;
-    font-family: 'Jost';
+    font-family: "Jost";
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 126%;
     /* or 28px */
-    color: #1D1D1D; }
+    color: #1d1d1d; }
   .detalle .aside {
     margin-top: 50px;
     margin-right: 104px;
@@ -989,7 +1001,7 @@ main {
       height: 562px; }
 
 .fondoTitulo {
-  background: #FCFD9A;
+  background: #fcfd9a;
   width: 311.01px;
   height: 45.67px;
   border-radius: 15px;
@@ -997,17 +1009,17 @@ main {
   display: flex;
   justify-content: center; }
   .fondoTitulo h4 {
-    font-family: 'OldSport';
+    font-family: "OldSport";
     width: 274px;
     height: 30px;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 30px;
-    color: #1D1D1D; }
+    color: #1d1d1d; }
 
 section {
-  background: #F4F4F4;
+  background: #f4f4f4;
   padding: 50px 0;
   margin-top: 48px; }
 
@@ -1031,27 +1043,38 @@ section {
     overflow: hidden;
     padding: 0;
     position: absolute; }
-    .carousel > input:nth-of-type(11):checked ~ .carousel__slides .carousel__slide:first-of-type {
+    .carousel > input:nth-of-type(11):checked ~ .carousel__slides
+.carousel__slide:first-of-type {
       margin-left: -1000%; }
-    .carousel > input:nth-of-type(10):checked ~ .carousel__slides .carousel__slide:first-of-type {
+    .carousel > input:nth-of-type(10):checked ~ .carousel__slides
+.carousel__slide:first-of-type {
       margin-left: -900%; }
-    .carousel > input:nth-of-type(9):checked ~ .carousel__slides .carousel__slide:first-of-type {
+    .carousel > input:nth-of-type(9):checked ~ .carousel__slides
+.carousel__slide:first-of-type {
       margin-left: -800%; }
-    .carousel > input:nth-of-type(8):checked ~ .carousel__slides .carousel__slide:first-of-type {
+    .carousel > input:nth-of-type(8):checked ~ .carousel__slides
+.carousel__slide:first-of-type {
       margin-left: -700%; }
-    .carousel > input:nth-of-type(7):checked ~ .carousel__slides .carousel__slide:first-of-type {
+    .carousel > input:nth-of-type(7):checked ~ .carousel__slides
+.carousel__slide:first-of-type {
       margin-left: -600%; }
-    .carousel > input:nth-of-type(6):checked ~ .carousel__slides .carousel__slide:first-of-type {
+    .carousel > input:nth-of-type(6):checked ~ .carousel__slides
+.carousel__slide:first-of-type {
       margin-left: -500%; }
-    .carousel > input:nth-of-type(5):checked ~ .carousel__slides .carousel__slide:first-of-type {
+    .carousel > input:nth-of-type(5):checked ~ .carousel__slides
+.carousel__slide:first-of-type {
       margin-left: -400%; }
-    .carousel > input:nth-of-type(4):checked ~ .carousel__slides .carousel__slide:first-of-type {
+    .carousel > input:nth-of-type(4):checked ~ .carousel__slides
+.carousel__slide:first-of-type {
       margin-left: -300%; }
-    .carousel > input:nth-of-type(3):checked ~ .carousel__slides .carousel__slide:first-of-type {
+    .carousel > input:nth-of-type(3):checked ~ .carousel__slides
+.carousel__slide:first-of-type {
       margin-left: -200%; }
-    .carousel > input:nth-of-type(2):checked ~ .carousel__slides .carousel__slide:first-of-type {
+    .carousel > input:nth-of-type(2):checked ~ .carousel__slides
+.carousel__slide:first-of-type {
       margin-left: -100%; }
-    .carousel > input:nth-of-type(1):checked ~ .carousel__slides .carousel__slide:first-of-type {
+    .carousel > input:nth-of-type(1):checked ~ .carousel__slides
+.carousel__slide:first-of-type {
       margin-left: 0%; }
     .carousel > input:nth-of-type(1):checked ~ .carousel__thumbnails li:nth-of-type(1) {
       box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5); }
@@ -1177,11 +1200,11 @@ section {
   width: 280px;
   margin-top: 120px;
   margin-bottom: 20px;
-  background: #FCFD9A;
+  background: #fcfd9a;
   border-radius: 15px; }
   .mainDetalle2 .fondoTitulo h3 {
     width: 347px;
-    font-family: 'OldSport';
+    font-family: "OldSport";
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -1197,7 +1220,7 @@ section {
     .mainDetalle2 .divCarousel .slider img {
       max-height: 31.25rem; }
     .mainDetalle2 .divCarousel .slider button {
-      color: #1D1D1D !important; }
+      color: #1d1d1d !important; }
 
 @media (max-width: 765px) {
   .mainDetalle2 {
