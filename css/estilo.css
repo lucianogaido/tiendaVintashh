@@ -836,20 +836,30 @@ main {
     text-decoration: none; }
     .mainColecciones .mainColeccionesDesktop a .prendasTop {
       width: 95%;
-      height: 412px;
+      height: 500px;
       padding: 45px;
       margin-left: 2.6vw;
       margin-top: 130px;
-      background-image: url(../imagenes/imgColecciones/Foto1.png); }
-      .mainColecciones .mainColeccionesDesktop a .prendasTop p {
-        font-family: 'Jost', sans-serif;
-        font-style: normal;
-        font-weight: 700px;
-        font-size: 25px;
-        line-height: 36px;
-        text-align: right;
-        color: #FFFFFF;
-        margin-top: 310px; }
+      background-image: url(../imagenes/imgColecciones/IMAROCKSTAR/PORTADA1.png);
+      background-size: cover;
+      background-position-y: 15%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: right; }
+      .mainColecciones .mainColeccionesDesktop a .prendasTop .contenedorTitulo {
+        width: 200px;
+        margin-top: 100px;
+        align-items: right;
+        background: #FCFD9A;
+        border-radius: 15px; }
+        .mainColecciones .mainColeccionesDesktop a .prendasTop .contenedorTitulo p {
+          font-family: 'Jost', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 25px;
+          line-height: 36px;
+          text-align: center;
+          color: black; }
   .mainColecciones .mainColeccionesDesktop .colecciones {
     display: flex;
     margin-top: 4vh;
@@ -869,7 +879,10 @@ main {
       height: 412px;
       margin-left: 2.6vw;
       top: 550px;
-      background-image: url(../imagenes/imgColecciones/Foto2.png); }
+      background-image: url(../imagenes/imgColecciones/VINTASHPOP/PORTADA2.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; }
     .mainColecciones .mainColeccionesDesktop .colecciones .coleccion2 {
       width: 30vw;
       height: 412px;
@@ -1051,15 +1064,15 @@ section {
       box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5); }
     .carousel > input:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(6) {
       box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5); }
-    .carousel > input:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(7) {
+    .carousel > input:nth-of-type(7):checked ~ .carousel__thumbnails li:nth-of-type(7) {
       box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5); }
-    .carousel > input:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(8) {
+    .carousel > input:nth-of-type(8):checked ~ .carousel__thumbnails li:nth-of-type(8) {
       box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5); }
-    .carousel > input:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(9) {
+    .carousel > input:nth-of-type(9):checked ~ .carousel__thumbnails li:nth-of-type(9) {
       box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5); }
-    .carousel > input:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(10) {
+    .carousel > input:nth-of-type(10):checked ~ .carousel__thumbnails li:nth-of-type(10) {
       box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5); }
-    .carousel > input:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(11) {
+    .carousel > input:nth-of-type(11):checked ~ .carousel__thumbnails li:nth-of-type(11) {
       box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5); }
 
 .carousel__slides {
