@@ -45,18 +45,34 @@
             display: flex;
             margin-top: 4vh;
             margin-bottom: 4vh;
+            
+            .padreContenedorTitulo{
+                display: flex;
+                align-items:flex-end;
+                justify-content: right;
 
-            p {
-                font-family: 'Jost', sans-serif;
-                font-style: normal;
-                font-weight: 700;
-                font-size: 25px;
-                line-height: 36px;
-                text-align: right;
-                color: #FFFFFF;
-                margin-top: 366px;
-                margin-right: 17px
+                .contenedorTitulo{
+                    width: 250px;
+                    margin-top: 350px;
+                    margin-right: 10px;
+                    align-items: right;
+                    background: #FCFD9A;
+                    border-radius: 15px;
+    
+                    p {
+                        font-family: 'Jost', sans-serif;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 25px;
+                        line-height: 36px;
+                        text-align: center;
+                        color: black; 
+                    }
+    
+                }
+
             }
+            
 
             .coleccion1 {
                 width: 30vw;
