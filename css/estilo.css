@@ -1,396 +1,655 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 main {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .fondoHome {
   width: 100vw;
   height: 108.99550224887557vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff; }
-  .fondoHome .imagenFondo {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffff; }
-    .fondoHome .imagenFondo img {
-      width: 100%; }
-  .fondoHome .imagenFondoMobile {
-    display: none; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+}
+
+.fondoHome .imagenFondo {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ffffff;
+}
+
+.fondoHome .imagenFondo img {
+  width: 100%;
+}
+
+.fondoHome .imagenFondoMobile {
+  display: none;
+}
 
 .comoFuncionaMobile {
-  display: none; }
+  display: none;
+}
 
 .comoFunciona {
   width: 100vw;
   height: 108.99550224887557vh;
   background-color: #f7effe;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-family: "OldSport", sans-serif;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #1d1d1d; }
-  .comoFunciona .comoFuncionaInfo {
-    width: 95%;
-    height: 75%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 17.09145427286357vh; }
-    .comoFunciona .comoFuncionaInfo .comoFuncionaTitulo {
-      width: 52.27vw;
-      background-color: #fcfd9a; }
-    .comoFunciona .comoFuncionaInfo .comoFuncionaBoxContainer {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      margin-top: 50px;
-      flex-wrap: nowrap; }
-    .comoFunciona .comoFuncionaInfo p {
-      font-size: 40px; }
-  .comoFunciona .comoFuncionaBox {
-    height: 60.869565217391305vh;
-    width: 29.355783308931187vw;
-    border-radius: 15px;
-    background-color: #fff;
-    border: 3px solid #cb97fb;
-    box-shadow: 4px 6px 4px 0px #00000040;
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    .comoFunciona .comoFuncionaBox p {
-      font-family: "Jost";
-      font-weight: 400;
-      font-size: 22px;
-      line-height: 126%;
-      font-style: normal;
-      text-align: center;
-      color: #1d1d1d; }
-    .comoFunciona .comoFuncionaBox p,
-    .comoFunciona .comoFuncionaBox img {
-      padding: 30px; }
-    .comoFunciona .comoFuncionaBox img {
-      margin-top: 50px; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #1d1d1d;
+}
+
+.comoFunciona .comoFuncionaInfo {
+  width: 95%;
+  height: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 17.09145427286357vh;
+}
+
+.comoFunciona .comoFuncionaInfo .comoFuncionaTitulo {
+  width: 52.27vw;
+  background-color: #fcfd9a;
+}
+
+.comoFunciona .comoFuncionaInfo .comoFuncionaBoxContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.comoFunciona .comoFuncionaInfo p {
+  font-size: 40px;
+}
+
+.comoFunciona .comoFuncionaBox {
+  height: 60.869565217391305vh;
+  width: 29.355783308931187vw;
+  border-radius: 15px;
+  background-color: #fff;
+  border: 3px solid #cb97fb;
+  -webkit-box-shadow: 4px 6px 4px 0px #00000040;
+          box-shadow: 4px 6px 4px 0px #00000040;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.comoFunciona .comoFuncionaBox p {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 126%;
+  font-style: normal;
+  text-align: center;
+  color: #1d1d1d;
+}
+
+.comoFunciona .comoFuncionaBox p,
+.comoFunciona .comoFuncionaBox img {
+  padding: 30px;
+}
+
+.comoFunciona .comoFuncionaBox img {
+  margin-top: 50px;
+}
 
 .modaCircular {
   display: block;
   width: 100vw;
   height: 158.69565217391305vh;
   background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "OldSport", sans-serif; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "OldSport", sans-serif;
+}
 
 .moodaCircularMovile {
-  display: none; }
+  display: none;
+}
 
 .modaCircularContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 95%;
-  height: 75%; }
-  .modaCircularContainer .modaCircularInfo {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column; }
-    .modaCircularContainer .modaCircularInfo .modaCircularTexto {
-      height: 70%; }
-      .modaCircularContainer .modaCircularInfo .modaCircularTexto h3 {
-        font-size: 40px;
-        color: #1d1d1d;
-        background-color: #fcfd9a;
-        width: 42.02vw; }
-      .modaCircularContainer .modaCircularInfo .modaCircularTexto p {
-        font-family: "Jost";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 22px;
-        line-height: 126%;
-        color: #1d1d1d;
-        margin-top: 52px; }
-    .modaCircularContainer .modaCircularInfo .modaCircularIconos {
-      height: 30%;
-      width: 100%;
-      margin-top: 40px;
-      display: flex;
-      flex-direction: column; }
-    .modaCircularContainer .modaCircularInfo .modaCircularIconosIconos {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-      margin-top: 47px; }
-      .modaCircularContainer .modaCircularInfo .modaCircularIconosIconos .iconosBox {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        margin-right: 70px; }
-        .modaCircularContainer .modaCircularInfo .modaCircularIconosIconos .iconosBox p {
-          font-style: normal;
-          font-weight: 600;
-          font-size: 15px;
-          line-height: 126%;
-          text-align: center;
-          color: #000000;
-          font-family: "Jost";
-          margin-top: 22px; }
-    .modaCircularContainer .modaCircularInfo h4 {
-      font-family: "Jost";
-      font-style: normal;
-      font-weight: 700;
-      font-size: 25px;
-      line-height: 36px; }
+  height: 75%;
+}
+
+.modaCircularContainer .modaCircularInfo {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.modaCircularContainer .modaCircularInfo .modaCircularTexto {
+  height: 70%;
+}
+
+.modaCircularContainer .modaCircularInfo .modaCircularTexto h3 {
+  font-size: 40px;
+  color: #1d1d1d;
+  background-color: #fcfd9a;
+  width: 42.02vw;
+}
+
+.modaCircularContainer .modaCircularInfo .modaCircularTexto p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 126%;
+  color: #1d1d1d;
+  margin-top: 52px;
+}
+
+.modaCircularContainer .modaCircularInfo .modaCircularIconos {
+  height: 30%;
+  width: 100%;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.modaCircularContainer .modaCircularInfo .modaCircularIconosIconos {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 47px;
+}
+
+.modaCircularContainer .modaCircularInfo .modaCircularIconosIconos .iconosBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-right: 70px;
+}
+
+.modaCircularContainer .modaCircularInfo .modaCircularIconosIconos .iconosBox p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 126%;
+  text-align: center;
+  color: #000000;
+  font-family: "Jost";
+  margin-top: 22px;
+}
+
+.modaCircularContainer .modaCircularInfo h4 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 36px;
+}
 
 .modaCircularImagen {
   width: 50%;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: -50px; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -50px;
+}
 
 .prendasUnicasMobile {
-  display: none; }
+  display: none;
+}
 
 .PrendasUnicas {
   width: 100%;
   height: 108.69565217391305vh;
   background-color: #f7effe;
   font-family: "OldSport", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center; }
-  .PrendasUnicas .PrendasUnicasContainer {
-    width: 95%;
-    height: 75%;
-    display: flex; }
-    .PrendasUnicas .PrendasUnicasContainer .PrendasUnicasInfo {
-      width: 50%;
-      height: 100%;
-      display: flex;
-      flex-direction: column; }
-      .PrendasUnicas .PrendasUnicasContainer .PrendasUnicasInfo div {
-        width: 80%; }
-      .PrendasUnicas .PrendasUnicasContainer .PrendasUnicasInfo h2 {
-        width: 54.24vw;
-        font-weight: 400;
-        line-height: 40px;
-        font-size: 40px;
-        background-color: #fcfd9a; }
-      .PrendasUnicas .PrendasUnicasContainer .PrendasUnicasInfo p {
-        font-family: "jost";
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 126%;
-        font-style: normal;
-        margin-top: 55px; }
-      .PrendasUnicas .PrendasUnicasContainer .PrendasUnicasInfo button {
-        width: 43.55vw;
-        background: #cb97fb;
-        border: none;
-        box-shadow: 0px 4px 4px 0px #00000040;
-        border-radius: 25px;
-        height: 56px;
-        margin-top: 50px;
-        font-family: "Jost";
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: "Jost";
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 26px;
-        font-style: normal;
-        color: #1d1d1d; }
-    .PrendasUnicas .PrendasUnicasContainer .PrendasUnicasImagen {
-      width: 50%;
-      height: 100%; }
-      .PrendasUnicas .PrendasUnicasContainer .PrendasUnicasImagen img {
-        margin-top: -150px; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.PrendasUnicas .PrendasUnicasContainer {
+  width: 95%;
+  height: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.PrendasUnicas .PrendasUnicasContainer .PrendasUnicasInfo {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.PrendasUnicas .PrendasUnicasContainer .PrendasUnicasInfo div {
+  width: 80%;
+}
+
+.PrendasUnicas .PrendasUnicasContainer .PrendasUnicasInfo h2 {
+  width: 54.24vw;
+  font-weight: 400;
+  line-height: 40px;
+  font-size: 40px;
+  background-color: #fcfd9a;
+}
+
+.PrendasUnicas .PrendasUnicasContainer .PrendasUnicasInfo p {
+  font-family: "jost";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 126%;
+  font-style: normal;
+  margin-top: 55px;
+}
+
+.PrendasUnicas .PrendasUnicasContainer .PrendasUnicasInfo button {
+  width: 43.55vw;
+  background: #cb97fb;
+  border: none;
+  -webkit-box-shadow: 0px 4px 4px 0px #00000040;
+          box-shadow: 0px 4px 4px 0px #00000040;
+  border-radius: 25px;
+  height: 56px;
+  margin-top: 50px;
+  font-family: "Jost";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Jost";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  font-style: normal;
+  color: #1d1d1d;
+}
+
+.PrendasUnicas .PrendasUnicasContainer .PrendasUnicasImagen {
+  width: 50%;
+  height: 100%;
+}
+
+.PrendasUnicas .PrendasUnicasContainer .PrendasUnicasImagen img {
+  margin-top: -150px;
+}
 
 @media (max-width: 991px) {
   .fondoHome {
-    height: 52.96vh; }
-    .fondoHome .imagenFondo {
-      display: none; }
-    .fondoHome .imagenFondoMobile {
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-      .fondoHome .imagenFondoMobile img {
-        width: 90%; }
+    height: 52.96vh;
+  }
+  .fondoHome .imagenFondo {
+    display: none;
+  }
+  .fondoHome .imagenFondoMobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .fondoHome .imagenFondoMobile img {
+    width: 90%;
+  }
   .comoFunciona {
-    display: none; }
+    display: none;
+  }
   .comoFuncionaTituloMobile {
     width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center; }
-    .comoFuncionaTituloMobile p {
-      height: 20px;
-      font-family: "OldSport";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 20px;
-      color: #1d1d1d;
-      margin-top: 41px;
-      background-color: #fcfd9a; }
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .comoFuncionaTituloMobile p {
+    height: 20px;
+    font-family: "OldSport";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #1d1d1d;
+    margin-top: 41px;
+    background-color: #fcfd9a;
+  }
   .comoFuncionatextoMobile {
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start; }
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
   .comoFuncionaMobile {
     display: block;
-    height: 444px; }
-    .comoFuncionaMobile .boxMobile {
-      display: flex;
-      width: 90%;
-      justify-content: center;
-      align-items: center;
-      margin-top: 25px; }
-      .comoFuncionaMobile .boxMobile .boxMobileTexto {
-        width: 70%;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 126%;
-        display: flex;
-        align-items: center;
-        color: #1d1d1d;
-        font-family: "Jost";
-        padding-left: 20px; }
+    height: 444px;
+  }
+  .comoFuncionaMobile .boxMobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 25px;
+  }
+  .comoFuncionaMobile .boxMobile .boxMobileTexto {
+    width: 70%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 126%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #1d1d1d;
+    font-family: "Jost";
+    padding-left: 20px;
+  }
   .modaCircular {
-    display: none; }
+    display: none;
+  }
   .moodaCircularMovile {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 789px;
     background-color: #fff;
     padding-top: 43px;
-    flex-direction: column;
-    align-items: center; }
-    .moodaCircularMovile .circularTitulo {
-      width: 278px;
-      font-family: "oldsport";
-      font-style: normal;
-      font-size: 20px;
-      line-height: 20px;
-      font-weight: 400;
-      color: #1d1d1d;
-      background-color: #fcfd9a;
-      margin-left: -50px; }
-    .moodaCircularMovile .primerParafo {
-      display: flex;
-      padding-top: 23px;
-      padding-bottom: 11px;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 126%;
-      color: #1d1d1d;
-      font-family: "Jost";
-      width: 90%;
-      justify-content: center;
-      align-items: center; }
-    .moodaCircularMovile .segundoParrafo {
-      padding-bottom: 40px;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 126%;
-      color: #1d1d1d;
-      font-family: "Jost";
-      width: 90%;
-      justify-content: center;
-      align-items: center; }
-    .moodaCircularMovile .tercerParrafo {
-      padding-bottom: 40px;
-      font-family: "Jost";
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 20px;
-      text-transform: uppercase;
-      font-style: normal;
-      color: #1d1d1d; }
-      .moodaCircularMovile .tercerParrafo .tercerParrafoIconos {
-        width: 100%;
-        padding-top: 30px;
-        display: flex;
-        justify-content: space-around; }
-        .moodaCircularMovile .tercerParrafo .tercerParrafoIconos p {
-          font-family: "Jost";
-          font-style: normal;
-          font-weight: 600;
-          font-size: 9px;
-          line-height: 126%;
-          text-align: center;
-          color: #000000; }
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .moodaCircularMovile .circularTitulo {
+    width: 278px;
+    font-family: "oldsport";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #1d1d1d;
+    background-color: #fcfd9a;
+    margin-left: -50px;
+  }
+  .moodaCircularMovile .primerParafo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 23px;
+    padding-bottom: 11px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 126%;
+    color: #1d1d1d;
+    font-family: "Jost";
+    width: 90%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .moodaCircularMovile .segundoParrafo {
+    padding-bottom: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 126%;
+    color: #1d1d1d;
+    font-family: "Jost";
+    width: 90%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .moodaCircularMovile .tercerParrafo {
+    padding-bottom: 40px;
+    font-family: "Jost";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #1d1d1d;
+  }
+  .moodaCircularMovile .tercerParrafo .tercerParrafoIconos {
+    width: 100%;
+    padding-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .moodaCircularMovile .tercerParrafo .tercerParrafoIconos p {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 126%;
+    text-align: center;
+    color: #000000;
+  }
   .PrendasUnicas {
-    display: none; }
+    display: none;
+  }
   .prendasUnicasMobile {
     display: block;
     height: 555px;
-    background-color: #f7effe; }
-    .prendasUnicasMobile .recibi {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      justify-content: center;
-      align-items: center; }
-      .prendasUnicasMobile .recibi h3 {
-        font-family: "oldsport";
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 20px;
-        color: #1d1d1d;
-        font-style: normal;
-        margin-top: 50px;
-        width: 95%;
-        background-color: #fcfd9a; }
-      .prendasUnicasMobile .recibi p {
-        width: 90%;
-        margin-top: 23px;
-        font-family: "Jost";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 126%;
-        color: #000000;
-        margin-top: 30px; }
-    .prendasUnicasMobile .seccionBoton {
-      position: relative; }
-    .prendasUnicasMobile button {
-      height: 48px;
-      left: 25px;
-      background: #cb97fb;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      border-radius: 25px;
-      width: 222px;
-      border: none;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: #000000;
-      font-family: "Jost";
-      font-weight: 600;
-      font-size: 15px;
-      line-height: 22px;
-      margin-top: 50px; }
-      .prendasUnicasMobile button img {
-        padding-right: 10px; }
-    .prendasUnicasMobile .chicamobile {
-      width: 90%;
-      position: absolute;
-      top: -40px;
-      right: 10px; } }
+    background-color: #f7effe;
+  }
+  .prendasUnicasMobile .recibi {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .prendasUnicasMobile .recibi h3 {
+    font-family: "oldsport";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #1d1d1d;
+    font-style: normal;
+    margin-top: 50px;
+    width: 95%;
+    background-color: #fcfd9a;
+  }
+  .prendasUnicasMobile .recibi p {
+    width: 90%;
+    margin-top: 23px;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 126%;
+    color: #000000;
+    margin-top: 30px;
+  }
+  .prendasUnicasMobile .seccionBoton {
+    position: relative;
+  }
+  .prendasUnicasMobile button {
+    height: 48px;
+    left: 25px;
+    background: #cb97fb;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    width: 222px;
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #000000;
+    font-family: "Jost";
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 50px;
+  }
+  .prendasUnicasMobile button img {
+    padding-right: 10px;
+  }
+  .prendasUnicasMobile .chicamobile {
+    width: 90%;
+    position: absolute;
+    top: -40px;
+    right: 10px;
+  }
+}
 
 .footer p {
   background-color: #1d1d1d;
@@ -400,177 +659,293 @@ main {
   font-size: 14px;
   line-height: 20px;
   text-align: center;
-  color: #ffffff; }
+  color: #ffffff;
+}
 
 .footer .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: 300px;
   background-color: #1d1d1d;
-  justify-content: space-between; }
-  .footer .links .nav {
-    width: 30%;
-    height: 100%; }
-    .footer .links .nav ul {
-      margin-top: 87px; }
-      .footer .links .nav ul li {
-        list-style: none;
-        margin-bottom: 14px; }
-        .footer .links .nav ul li a {
-          text-decoration: none;
-          font-family: "Jost";
-          font-style: normal;
-          font-weight: 500;
-          font-size: 12px;
-          line-height: 17px;
-          display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .links .nav {
+  width: 30%;
+  height: 100%;
+}
+
+.footer .links .nav ul {
+  margin-top: 87px;
+}
+
+.footer .links .nav ul li {
+  list-style: none;
+  margin-bottom: 14px;
+}
+
+.footer .links .nav ul li a {
+  text-decoration: none;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
           align-items: center;
-          color: #ffffff;
-          margin-left: 100px; }
-  .footer .links .politicas {
-    width: 30%;
-    height: 100%; }
-    .footer .links .politicas ul {
-      margin-top: 87px; }
-      .footer .links .politicas ul li {
-        list-style: none;
-        margin-bottom: 14px; }
-        .footer .links .politicas ul li a {
-          text-decoration: none;
-          font-family: "Jost";
-          font-style: normal;
-          font-weight: 500;
-          font-size: 12px;
-          line-height: 17px;
-          display: flex;
+  color: #ffffff;
+  margin-left: 100px;
+}
+
+.footer .links .politicas {
+  width: 30%;
+  height: 100%;
+}
+
+.footer .links .politicas ul {
+  margin-top: 87px;
+}
+
+.footer .links .politicas ul li {
+  list-style: none;
+  margin-bottom: 14px;
+}
+
+.footer .links .politicas ul li a {
+  text-decoration: none;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
           align-items: center;
-          color: #ffffff; }
-  .footer .links .redes {
-    width: 30%;
-    height: 100%;
-    text-decoration: none;
-    font-family: "Jost";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 17px;
-    display: flex;
-    align-items: center;
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    padding-top: 80px; }
-    .footer .links .redes img {
-      padding-top: 20px; }
-  .footer .links .derechos p {
-    display: block;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff; }
-  .footer .links .formasDePago {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 17px;
-    display: flex;
-    align-items: center;
-    font-family: "Jost";
-    color: #ffffff; }
+  color: #ffffff;
+}
+
+.footer .links .redes {
+  width: 30%;
+  height: 100%;
+  text-decoration: none;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 80px;
+}
+
+.footer .links .redes img {
+  padding-top: 20px;
+}
+
+.footer .links .derechos p {
+  display: block;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffffff;
+}
+
+.footer .links .formasDePago {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Jost";
+  color: #ffffff;
+}
 
 @media (max-width: 765px) {
   .footer .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center; }
-    .footer .links .nav {
-      width: 50%;
-      display: flex;
-      height: 30%; }
-      .footer .links .nav ul {
-        margin-top: 27px;
-        margin-left: -40px; }
-    .footer .links .politicas {
-      width: 50%;
-      height: 30%; }
-      .footer .links .politicas ul {
-        margin-top: 27px; }
-    .footer .links .formasDePago {
-      width: 100%; }
-      .footer .links .formasDePago p {
-        margin: auto;
-        border-top: 2px solid #cb97fb;
-        border-bottom: 2px solid #cb97fb;
-        font-size: 13px; }
-    .footer .links .redes {
-      display: none; } }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer .links .nav {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 30%;
+  }
+  .footer .links .nav ul {
+    margin-top: 27px;
+    margin-left: -40px;
+  }
+  .footer .links .politicas {
+    width: 50%;
+    height: 30%;
+  }
+  .footer .links .politicas ul {
+    margin-top: 27px;
+  }
+  .footer .links .formasDePago {
+    width: 100%;
+  }
+  .footer .links .formasDePago p {
+    margin: auto;
+    border-top: 2px solid #cb97fb;
+    border-bottom: 2px solid #cb97fb;
+    font-size: 13px;
+  }
+  .footer .links .redes {
+    display: none;
+  }
+}
 
 .navBar {
   position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: 98px;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #1d1d1d;
-  z-index: 100; }
-  .navBar .logoNavBar {
-    padding-left: 20px; }
-  .navBar .Login {
-    padding-right: 20px; }
-  .navBar ul {
-    width: 500px;
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center; }
-    .navBar ul li {
-      display: flex;
-      align-items: center;
-      height: 100%; }
-      .navBar ul li :hover {
-        border-top: 3px solid #cb97fb; }
-      .navBar ul li a {
-        height: 100%;
-        display: flex;
-        text-decoration: none;
-        color: #ffffff;
-        padding: 10px;
-        font-family: "Jost";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 20px;
-        text-align: center;
-        align-items: center;
-        justify-content: center; }
-        .navBar ul li a:hover {
-          color: #cb97fb;
-          font-weight: 700; }
-  .navBar button {
-    background: #cb97fb;
-    border-radius: 25px;
-    width: 156px;
-    height: 45px;
-    font-family: "Jost";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 20px;
-    color: #1d1d1d;
-    display: flex;
-    align-items: center;
-    justify-content: center; }
+  z-index: 100;
+}
+
+.navBar .logoNavBar {
+  padding-left: 20px;
+}
+
+.navBar .Login {
+  padding-right: 20px;
+}
+
+.navBar ul {
+  width: 500px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navBar ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.navBar ul li :hover {
+  border-top: 3px solid #cb97fb;
+}
+
+.navBar ul li a {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navBar ul li a:hover {
+  color: #cb97fb;
+  font-weight: 700;
+}
+
+.navBar button {
+  background: #cb97fb;
+  border-radius: 25px;
+  width: 156px;
+  height: 45px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1d1d1d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 
 .logoWhatsapp {
   width: 28px;
-  padding-right: 5px; }
+  padding-right: 5px;
+}
 
 .navBarMobile,
 .menuFlotante,
 .buttonMobile {
   display: none;
-  z-index: 1; }
+  z-index: 1;
+}
 
 @media (max-width: 991px) {
   .buttonMobile {
@@ -578,11 +953,18 @@ main {
     height: 43px;
     width: 100%;
     background: #cb97fb;
-    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
     border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     font-family: "Jost";
     font-weight: 600;
     font-size: 18px;
@@ -591,19 +973,28 @@ main {
     align-items: center;
     text-align: center;
     color: #1d1d1d;
-    font-style: normal; }
+    font-style: normal;
+  }
   .navBar {
-    display: none; }
+    display: none;
+  }
   .navBarMobile {
     width: 100%;
     background-color: #1d1d1d;
     height: 84px;
     font-size: 32px;
     color: #cb97fb;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 25px;
+  }
   .menuFlotante {
     width: 100vw;
     height: 100vh;
@@ -612,134 +1003,218 @@ main {
     font-style: normal;
     font-weight: 400;
     font-size: 7vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     list-style: none;
     position: absolute;
     margin-top: 84px;
     top: -184vh;
-    transition: all 0.5s; }
-    .menuFlotante.mostrar {
-      top: 0;
-      background-color: #1d1d1d; }
-    .menuFlotante li {
-      padding-top: 20vw; }
-    .menuFlotante a {
-      text-decoration: none; } }
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .menuFlotante.mostrar {
+    top: 0;
+    background-color: #1d1d1d;
+  }
+  .menuFlotante li {
+    padding-top: 20vw;
+  }
+  .menuFlotante a {
+    text-decoration: none;
+  }
+}
 
 .mainCompraVenta .mainCompraVentaDesktop {
-  width: 100%; }
-  .mainCompraVenta .mainCompraVentaDesktop .comoFunciona {
-    padding-bottom: 80px;
-    height: 100%; }
-    .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta {
-      width: 95%;
-      display: flex;
-      flex-direction: column;
-      margin-top: 100px; }
-      .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta .compraVentaBoxContainer {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        margin-top: 50px; }
-      .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta .fondoTitulo {
-        width: 370px;
-        margin-top: 80px;
-        background: #FCFD9A;
-        border-radius: 15px; }
-        .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta .fondoTitulo h3 {
-          width: 347px;
-          font-family: 'OldSport';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 40px;
-          line-height: 40px;
-          margin-left: 10.19px; }
-      .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta p {
-        margin-top: 50px;
-        font-size: 40px; }
-      .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta button {
-        margin-left: 30%;
-        width: 500px;
-        height: 56px;
-        background: #cb97fb;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 25px;
-        border: none;
-        margin-top: 40px;
-        font-family: 'Jost';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 60px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        color: #1D1D1D; }
-    .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVentaBox {
-      height: 25.375em;
-      width: 25.063em;
-      border-radius: 15px;
-      background-color: #fff;
-      border: 3px solid #cb97fb;
-      box-shadow: 4px 6px 4px 0px #00000040; }
-      .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVentaBox .cardsCompraVenta {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        padding-top: 6.693989071038251vh; }
-        .mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVentaBox .cardsCompraVenta .detalleCard {
-          padding-top: 3.121584699453552vh;
-          padding-left: 3.215434083601286vw;
-          padding-right: 3.215434083601286vw;
-          font-family: 'Jost';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 20px;
-          line-height: 126%;
-          text-align: center;
-          color: #1D1D1D; }
-  .mainCompraVenta .mainCompraVentaDesktop .descripcion {
-    width: 100%;
-    height: 47.131147540983605vh;
-    display: flex;
-    align-items: center; }
-    .mainCompraVenta .mainCompraVentaDesktop .descripcion .detalle {
-      display: flex;
-      align-items: flex-start;
-      width: 33.3333333333333%;
-      height: 100%; }
-      .mainCompraVenta .mainCompraVentaDesktop .descripcion .detalle .tituloDetalle {
-        font-family: 'Jost';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 23px;
-        display: flex;
-        align-items: center;
-        text-transform: uppercase;
-        color: #1D1D1D; }
-      .mainCompraVenta .mainCompraVentaDesktop .descripcion .detalle .textoDetalle {
-        width: 257px;
-        height: 100px;
-        font-family: 'Jost';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 122%;
-        color: #000000; }
-      .mainCompraVenta .mainCompraVentaDesktop .descripcion .detalle img {
-        width: 41px;
-        margin-right: 1.607717041800643vw; }
+  width: 100%;
+}
+
+.mainCompraVenta .mainCompraVentaDesktop .comoFunciona {
+  padding-bottom: 80px;
+  height: 100%;
+}
+
+.mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta {
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 100px;
+}
+
+.mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta .compraVentaBoxContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta .fondoTitulo {
+  width: 370px;
+  margin-top: 80px;
+  background: #FCFD9A;
+  border-radius: 15px;
+}
+
+.mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta .fondoTitulo h3 {
+  width: 347px;
+  font-family: 'OldSport';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  margin-left: 10.19px;
+}
+
+.mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta p {
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+.mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVenta button {
+  margin-left: 30%;
+  width: 500px;
+  height: 56px;
+  background: #cb97fb;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  border: none;
+  margin-top: 40px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #1D1D1D;
+}
+
+.mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVentaBox {
+  height: 25.375em;
+  width: 25.063em;
+  border-radius: 15px;
+  background-color: #fff;
+  border: 3px solid #cb97fb;
+  -webkit-box-shadow: 4px 6px 4px 0px #00000040;
+          box-shadow: 4px 6px 4px 0px #00000040;
+}
+
+.mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVentaBox .cardsCompraVenta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 6.693989071038251vh;
+}
+
+.mainCompraVenta .mainCompraVentaDesktop .comoFunciona .compraVentaBox .cardsCompraVenta .detalleCard {
+  padding-top: 3.121584699453552vh;
+  padding-left: 3.215434083601286vw;
+  padding-right: 3.215434083601286vw;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 126%;
+  text-align: center;
+  color: #1D1D1D;
+}
+
+.mainCompraVenta .mainCompraVentaDesktop .descripcion {
+  width: 100%;
+  height: 47.131147540983605vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainCompraVenta .mainCompraVentaDesktop .descripcion .detalle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 33.3333333333333%;
+  height: 100%;
+}
+
+.mainCompraVenta .mainCompraVentaDesktop .descripcion .detalle .tituloDetalle {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: #1D1D1D;
+}
+
+.mainCompraVenta .mainCompraVentaDesktop .descripcion .detalle .textoDetalle {
+  width: 257px;
+  height: 100px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 122%;
+  color: #000000;
+}
+
+.mainCompraVenta .mainCompraVentaDesktop .descripcion .detalle img {
+  width: 41px;
+  margin-right: 1.607717041800643vw;
+}
 
 .mainCompraVenta .mainCompraVentaMobile {
-  display: none; }
+  display: none;
+}
 
 @media (max-width: 765px) {
   .mainCompraVenta .mainCompraVentaDesktop {
-    display: none; }
+    display: none;
+  }
   .mainCompraVenta .mainCompraVentaMobile {
     margin-top: 50px;
     display: block; }
@@ -903,89 +1378,322 @@ main {
   .mainColecciones .mainColeccionesDesktop {
     display: none; }
   .mainColecciones .mainMobile {
+=======
+>>>>>>> fbe1dc144fe3409b76875daa23a9291e64285362
     display: block;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row; }
-    .mainColecciones .mainMobile .prendasTop-mobile {
-      position: relative; }
-      .mainColecciones .mainMobile .prendasTop-mobile img {
-        width: 100%;
-        margin-top: 30px; }
-      .mainColecciones .mainMobile .prendasTop-mobile p {
-        position: absolute;
-        width: 350px;
-        height: 19px;
-        right: 40px;
-        top: 380px;
-        font-family: 'Jost';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 26px;
-        text-align: right;
-        color: #FFFFFF; }
-    .mainColecciones .mainMobile .colecciones-mobile .coleccion1-mobile,
-    .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile,
-    .mainColecciones .mainMobile .colecciones-mobile .coleccion3-mobile {
-      position: relative; }
-      .mainColecciones .mainMobile .colecciones-mobile .coleccion1-mobile img,
-      .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile img,
-      .mainColecciones .mainMobile .colecciones-mobile .coleccion3-mobile img {
-        width: 100%;
-        margin-top: 10px; }
-      .mainColecciones .mainMobile .colecciones-mobile .coleccion1-mobile p,
-      .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile p,
-      .mainColecciones .mainMobile .colecciones-mobile .coleccion3-mobile p {
-        position: absolute;
-        width: 350px;
-        height: 19px;
-        right: 40px;
-        top: 360px;
-        font-family: 'Jost';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 26px;
-        text-align: right;
-        color: #FFFFFF; } }
-
-.detalle {
-  display: flex;
-  margin-top: 137px;
-  margin-left: 86px;
-  width: 100%; }
-  .detalle .descripcion div {
-    width: 337.77px;
-    height: 45.67px;
-    background: #FCFD9A;
-    border-radius: 15px; }
-    .detalle .descripcion div h3 {
-      width: 299px;
-      height: 40px;
-      font-family: 'OldSport';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 40px;
-      line-height: 40px;
-      margin-bottom: 50px; }
-  .detalle .descripcion p {
-    width: 583px;
-    height: 562px;
+  }
+  .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile {
+    margin-left: 5.03125vw;
+    background: #F5F5F5;
+  }
+  .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile .titulo, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile .titulo {
+    font-family: "OldSport", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile p, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile p {
     font-family: 'Jost';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 126%;
-    /* or 28px */
-    color: #1D1D1D; }
-  .detalle .aside {
-    margin-top: 50px;
-    margin-right: 104px;
-    margin-left: 56px; }
-    .detalle .aside img {
-      width: 500px;
-      height: 562px; }
+    font-size: 16px;
+    line-height: 115%;
+    color: #1D1D1D;
+  }
+  .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile button, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 50px;
+    background: #cb97fb;
+    -webkit-box-shadow: 0px 4px 4px 0px #00000040;
+            box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 25px;
+    margin-top: 40px;
+    height: 48px;
+    width: 95%;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile button .wpIcono, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile button .wpIcono {
+    width: 28px;
+  }
+  .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile .contenido, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile .contenido {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100px;
+  }
+  .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile .contenido img, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile .contenido img {
+    margin-right: 5.03125vw;
+  }
+  .mainCompraVenta .mainCompraVentaMobile .comoComprarMobile .contenido p, .mainCompraVenta .mainCompraVentaMobile .comoVenderMobile .contenido p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 115%;
+    color: #1D1D1D;
+    width: 70%;
+  }
+  .mainCompraVenta .mainCompraVentaMobile .descripcion {
+    width: 100%;
+    background-color: #F7EFFE;
+  }
+  .mainCompraVenta .mainCompraVentaMobile .descripcion .detalle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    height: 100%;
+    margin-left: 5.03125vw;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: 0px;
+  }
+  .mainCompraVenta .mainCompraVentaMobile .descripcion .detalle .tituloDetalle {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-transform: uppercase;
+    color: #1D1D1D;
+    margin-bottom: 10px;
+  }
+  .mainCompraVenta .mainCompraVentaMobile .descripcion .detalle .textoDetalle {
+    margin-left: 3.5625vw;
+    width: 300px;
+    height: 100px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 122%;
+    color: #000000;
+  }
+  .mainCompraVenta .mainCompraVentaMobile .descripcion .detalle img {
+    width: 41px;
+    margin-right: 1.607717041800643vw;
+    margin-left: 0%;
+    padding-left: 0%;
+  }
+}
+
+.mainColecciones .mainColeccionesDesktop {
+  width: 100%;
+}
+
+.mainColecciones .mainColeccionesDesktop a {
+  text-decoration: none;
+}
+
+.mainColecciones .mainColeccionesDesktop a .prendasTop {
+  width: 95%;
+  height: 412px;
+  padding: 45px;
+  margin-left: 2.6vw;
+  margin-top: 130px;
+  background-image: url(../imagenes/imgColecciones/Foto1.png);
+}
+
+.mainColecciones .mainColeccionesDesktop a .prendasTop p {
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 25px;
+  line-height: 36px;
+  text-align: right;
+  color: #FFFFFF;
+  margin-top: 310px;
+}
+
+.mainColecciones .mainColeccionesDesktop .colecciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+.mainColecciones .mainColeccionesDesktop .colecciones p {
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 36px;
+  text-align: right;
+  color: #FFFFFF;
+  margin-top: 366px;
+  margin-right: 17px;
+}
+
+.mainColecciones .mainColeccionesDesktop .colecciones .coleccion1 {
+  width: 30vw;
+  height: 412px;
+  margin-left: 2.6vw;
+  top: 550px;
+  background-image: url(../imagenes/imgColecciones/Foto2.png);
+}
+
+.mainColecciones .mainColeccionesDesktop .colecciones .coleccion2 {
+  width: 30vw;
+  height: 412px;
+  margin-left: 1.9vw;
+  top: 550px;
+  background-image: url(../imagenes/imgColecciones/Foto3.png);
+}
+
+.mainColecciones .mainColeccionesDesktop .colecciones .coleccion3 {
+  width: 30vw;
+  height: 412px;
+  margin-left: 1.9vw;
+  top: 550px;
+  background-image: url(../imagenes/imgColecciones/Foto4.png);
+}
+
+.mainColecciones .mainMobile {
+  display: none;
+}
+
+@media (max-width: 765px) {
+  .mainColecciones .mainColeccionesDesktop {
+    display: none;
+  }
+  .mainColecciones .mainMobile {
+    display: block;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .mainColecciones .mainMobile .prendasTop-mobile {
+    position: relative;
+  }
+  .mainColecciones .mainMobile .prendasTop-mobile img {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .mainColecciones .mainMobile .prendasTop-mobile p {
+    position: absolute;
+    width: 350px;
+    height: 19px;
+    right: 40px;
+    top: 380px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: right;
+    color: #FFFFFF;
+  }
+  .mainColecciones .mainMobile .colecciones-mobile .coleccion1-mobile,
+  .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile,
+  .mainColecciones .mainMobile .colecciones-mobile .coleccion3-mobile {
+    position: relative;
+  }
+  .mainColecciones .mainMobile .colecciones-mobile .coleccion1-mobile img,
+  .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile img,
+  .mainColecciones .mainMobile .colecciones-mobile .coleccion3-mobile img {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .mainColecciones .mainMobile .colecciones-mobile .coleccion1-mobile p,
+  .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile p,
+  .mainColecciones .mainMobile .colecciones-mobile .coleccion3-mobile p {
+    position: absolute;
+    width: 350px;
+    height: 19px;
+    right: 40px;
+    top: 360px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: right;
+    color: #FFFFFF;
+  }
+}
+
+.detalle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 137px;
+  margin-left: 86px;
+  width: 100%;
+}
+
+.detalle .descripcion div {
+  width: 337.77px;
+  height: 45.67px;
+  background: #FCFD9A;
+  border-radius: 15px;
+}
+
+.detalle .descripcion div h3 {
+  width: 299px;
+  height: 40px;
+  font-family: 'OldSport';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 50px;
+}
+
+.detalle .descripcion p {
+  width: 583px;
+  height: 562px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 126%;
+  /* or 28px */
+  color: #1D1D1D;
+}
+
+.detalle .aside {
+  margin-top: 50px;
+  margin-right: 104px;
+  margin-left: 56px;
+}
+
+.detalle .aside img {
+  width: 500px;
+  height: 562px;
+}
 
 .fondoTitulo {
   background: #FCFD9A;
@@ -993,27 +1701,36 @@ main {
   height: 45.67px;
   border-radius: 15px;
   margin-left: 86px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center; }
-  .fondoTitulo h4 {
-    font-family: 'OldSport';
-    width: 274px;
-    height: 30px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 30px;
-    color: #1D1D1D; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fondoTitulo h4 {
+  font-family: 'OldSport';
+  width: 274px;
+  height: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  color: #1D1D1D;
+}
 
 section {
   background: #F4F4F4;
   padding: 50px 0;
-  margin-top: 48px; }
+  margin-top: 48px;
+}
 
 .container {
   max-width: 1044px;
   margin: 0 auto;
-  padding: 0 20px; }
+  padding: 0 20px;
+}
 
 .carousel {
   display: block;
@@ -1064,15 +1781,15 @@ section {
       box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5); }
     .carousel > input:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(6) {
       box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5); }
-    .carousel > input:nth-of-type(7):checked ~ .carousel__thumbnails li:nth-of-type(7) {
+    .carousel > input:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(7) {
       box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5); }
-    .carousel > input:nth-of-type(8):checked ~ .carousel__thumbnails li:nth-of-type(8) {
+    .carousel > input:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(8) {
       box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5); }
-    .carousel > input:nth-of-type(9):checked ~ .carousel__thumbnails li:nth-of-type(9) {
+    .carousel > input:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(9) {
       box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5); }
-    .carousel > input:nth-of-type(10):checked ~ .carousel__thumbnails li:nth-of-type(10) {
+    .carousel > input:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(10) {
       box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5); }
-    .carousel > input:nth-of-type(11):checked ~ .carousel__thumbnails li:nth-of-type(11) {
+    .carousel > input:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(11) {
       box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5); }
 
 .carousel__slides {
@@ -1082,106 +1799,169 @@ section {
   margin: 0;
   overflow: hidden;
   white-space: nowrap;
-  box-sizing: border-box;
-  display: flex; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 
 .carousel__slide {
   position: relative;
   display: block;
-  flex: 1 0 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
   width: 100%;
   height: 100%;
   overflow: hidden;
+  -webkit-transition: all 300ms ease-out;
   transition: all 300ms ease-out;
   vertical-align: top;
-  box-sizing: border-box;
-  white-space: normal; }
-  .carousel__slide figure {
-    display: flex;
-    margin: 0; }
-  .carousel__slide div {
-    position: relative;
-    width: 100%; }
-    .carousel__slide div:before {
-      display: block;
-      content: "";
-      width: 100%;
-      padding-top: 50%; }
-    .carousel__slide div > img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      width: 100%;
-      height: 100%; }
-  .carousel__slide img {
-    display: block;
-    flex: 1 1 auto;
-    object-fit: cover; }
-  .carousel__slide figcaption {
-    align-self: flex-end;
-    padding: 20px 20px 0 20px;
-    flex: 0 0 auto;
-    width: 25%;
-    min-width: 150px; }
-  .carousel__slide .credit {
-    margin-top: 1rem;
-    color: rgba(0, 0, 0, 0.5);
-    display: block; }
-  .carousel__slide.scrollable {
-    overflow-y: scroll; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  white-space: normal;
+}
+
+.carousel__slide figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+}
+
+.carousel__slide div {
+  position: relative;
+  width: 100%;
+}
+
+.carousel__slide div:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 50%;
+}
+
+.carousel__slide div > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel__slide img {
+  display: block;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel__slide figcaption {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  padding: 20px 20px 0 20px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: 25%;
+  min-width: 150px;
+}
+
+.carousel__slide .credit {
+  margin-top: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+  display: block;
+}
+
+.carousel__slide.scrollable {
+  overflow-y: scroll;
+}
 
 .carousel__thumbnails {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  margin: 0 -10px; }
-  .carousel__slides + .carousel__thumbnails {
-    margin-top: 20px; }
-  .carousel__thumbnails li {
-    flex: 1 1 auto;
-    max-width: calc((100% / 6) - 20px);
-    margin: 0 10px;
-    transition: all 300ms ease-in-out; }
-  .carousel__thumbnails label {
-    display: block;
-    position: relative; }
-    .carousel__thumbnails label:before {
-      display: block;
-      content: "";
-      width: 100%;
-      padding-top: 50%; }
-    .carousel__thumbnails label > img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      width: 100%;
-      height: 100%; }
-    .carousel__thumbnails label:hover, .carousel__thumbnails label:focus {
-      cursor: pointer; }
-      .carousel__thumbnails label:hover img, .carousel__thumbnails label:focus img {
-        box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.25);
-        transition: all 300ms ease-in-out; }
-  .carousel__thumbnails img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; }
+  margin: 0 -10px;
+}
+
+.carousel__slides + .carousel__thumbnails {
+  margin-top: 20px;
+}
+
+.carousel__thumbnails li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  max-width: calc((100% / 6) - 20px);
+  margin: 0 10px;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.carousel__thumbnails label {
+  display: block;
+  position: relative;
+}
+
+.carousel__thumbnails label:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 50%;
+}
+
+.carousel__thumbnails label > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel__thumbnails label:hover, .carousel__thumbnails label:focus {
+  cursor: pointer;
+}
+
+.carousel__thumbnails label:hover img, .carousel__thumbnails label:focus img {
+  -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.25);
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.carousel__thumbnails img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
 @font-face {
   font-family: "OldSport";
-  src: url(../fuentes/OldSport.ttf); }
+  src: url(../fuentes/OldSport.ttf);
+}
 
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 body {
   background-color: #f5f5f5;
   width: 100%;
-  font-family: "roboto", sans-serif; }
+  font-family: "roboto", sans-serif;
+}
+/*# sourceMappingURL=estilo.css.map */
