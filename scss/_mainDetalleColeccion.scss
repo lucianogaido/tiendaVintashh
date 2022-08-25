@@ -254,3 +254,70 @@ section {
         object-fit: cover;
     }
 }
+
+//***************************** VERSION BOOTSTRAP ****************************************
+
+.mainDetalle2{
+    .fondoTitulo{
+        width: 280px;
+        margin-top: 120px;
+        margin-bottom: 20px;
+        background: #FCFD9A;
+        border-radius: 15px;
+
+        h3{            
+          width: 347px;
+          font-family: 'OldSport';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 40px;
+          line-height: 40px;
+          margin-left: 10.19px;  
+        }
+
+      }
+
+
+    .divCarousel{
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        .slider{
+            width: 60%;
+
+            img{
+                max-height: 31.25rem;
+            }            
+            button{
+                color: #1D1D1D !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 765px) {
+    .mainDetalle2{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        .fondoTitulo{
+            align-items: center;
+            margin-top: 20px;
+            margin-left: 50px;
+            
+        }
+        .divCarousel{
+            display: none;
+        }
+
+        .galeriaMobile{
+
+            .foto{
+                margin-bottom: 20px;
+            }
+        }
+    }
+    
+
+
+}
