@@ -715,10 +715,12 @@ main {
           color: #1D1D1D; }
   .mainCompraVenta .mainCompraVentaDesktop .descripcion {
     width: 100%;
-    height: 47.131147540983605vh;
+    height: 200px;
     display: flex;
     align-items: center; }
     .mainCompraVenta .mainCompraVentaDesktop .descripcion .detalle {
+      padding-top: 50px;
+      justify-content: center;
       display: flex;
       align-items: flex-start;
       width: 33.3333333333333%;
@@ -881,7 +883,7 @@ main {
       align-items: flex-end;
       justify-content: right; }
       .mainColecciones .mainColeccionesDesktop .colecciones .padreContenedorTitulo .contenedorTitulo {
-        width: 250px;
+        width: 180px;
         margin-top: 350px;
         margin-right: 10px;
         align-items: right;
@@ -909,13 +911,19 @@ main {
       height: 412px;
       margin-left: 1.9vw;
       top: 550px;
-      background-image: url(../imagenes/imgColecciones/Foto3.png); }
+      background-image: url(../imagenes/imgColecciones/ROADTRIP/PORTADA3.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; }
     .mainColecciones .mainColeccionesDesktop .colecciones .coleccion3 {
       width: 30vw;
       height: 412px;
       margin-left: 1.9vw;
       top: 550px;
-      background-image: url(../imagenes/imgColecciones/Foto4.png); }
+      background-image: url(../imagenes/imgColecciones/SPRING2022/PORTADA4.png);
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat; }
 
 .mainColecciones .mainMobile {
   display: none; }
@@ -935,17 +943,20 @@ main {
         margin-top: 30px; }
       .mainColecciones .mainMobile .prendasTop-mobile p {
         position: absolute;
-        width: 350px;
+        width: 150px;
         height: 19px;
-        right: 40px;
+        left: 220px;
         top: 250px;
+        padding-bottom: 25px;
         font-family: 'Jost';
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
         line-height: 26px;
-        text-align: right;
-        color: #FFFFFF; }
+        text-align: center;
+        background: #FCFD9A;
+        border-radius: 15px;
+        color: black; }
     .mainColecciones .mainMobile .colecciones-mobile .coleccion1-mobile,
     .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile,
     .mainColecciones .mainMobile .colecciones-mobile .coleccion3-mobile {
@@ -960,17 +971,20 @@ main {
       .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile p,
       .mainColecciones .mainMobile .colecciones-mobile .coleccion3-mobile p {
         position: absolute;
-        width: 350px;
+        width: 150px;
         height: 19px;
-        right: 40px;
-        top: 360px;
+        left: 220px;
+        top: 380px;
+        padding-bottom: 25px;
         font-family: 'Jost';
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
         line-height: 26px;
-        text-align: right;
-        color: #FFFFFF; } }
+        text-align: center;
+        background: #FCFD9A;
+        border-radius: 15px;
+        color: black; } }
 
 .mainDetalle2 .galeriaMobile {
   display: none; }
@@ -1016,8 +1030,10 @@ main {
       margin-left: 50px; }
     .mainDetalle2 .divCarousel {
       display: none; }
-    .mainDetalle2 .galeriaMobile .foto {
-      margin-bottom: 20px; } }
+    .mainDetalle2 .galeriaMobile {
+      display: block; }
+      .mainDetalle2 .galeriaMobile .foto {
+        margin-bottom: 20px; } }
 
 @font-face {
   font-family: "OldSport";

@@ -52,7 +52,7 @@
                 justify-content: right;
 
                 .contenedorTitulo{
-                    width: 250px;
+                    width: 180px;
                     margin-top: 350px;
                     margin-right: 10px;
                     align-items: right;
@@ -91,7 +91,10 @@
                 height: 412px;
                 margin-left: 1.9vw;
                 top: 550px;
-                background-image: url(../imagenes/imgColecciones/Foto3.png)
+                background-image: url(../imagenes/imgColecciones/ROADTRIP/PORTADA3.png);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
             }
 
             .coleccion3 {
@@ -99,7 +102,10 @@
                 height: 412px;
                 margin-left: 1.9vw;
                 top: 550px;
-                background-image: url(../imagenes/imgColecciones/Foto4.png)
+                background-image: url(../imagenes/imgColecciones/SPRING2022/PORTADA4.png);
+                background-size: cover;
+                background-position: top;
+                background-repeat: no-repeat;
             }
         }
     }
@@ -128,24 +134,28 @@
                     // height: 350px;
                     margin-top: 30px;
                 }
-
+                    
                 p {
                     position: absolute;
-                    width: 350px;
+                    width: 150px;
                     height: 19px;
-                    right: 40px;
+                    left: 220px;
                     top: 250px;
+                    padding-bottom: 25px;
 
                     font-family: 'Jost';
                     font-style: normal;
                     font-weight: 700;
                     font-size: 18px;
                     line-height: 26px;
-                    text-align: right;
+                    text-align: center;
+                    background: #FCFD9A;
+                    border-radius: 15px;   
 
-                    color: #FFFFFF;
-                    // color: red;
-                }
+
+                    color: black;
+                }                
+                
             }
 
             .colecciones-mobile {
@@ -163,19 +173,21 @@
 
                     p {
                         position: absolute;
-                        width: 350px;
+                        width: 150px;
                         height: 19px;
-                        right: 40px;
-                        top: 360px;
-
+                        left: 220px;
+                        top: 380px;
+                        padding-bottom: 25px;
                         font-family: 'Jost';
                         font-style: normal;
                         font-weight: 700;
                         font-size: 18px;
                         line-height: 26px;
-                        text-align: right;
+                        text-align: center;
 
-                        color: #FFFFFF;
+                        background: #FCFD9A;
+                        border-radius: 15px;   
+                        color: black;                        ;
                     }
                 }
             }
