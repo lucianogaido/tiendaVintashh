@@ -1,196 +1,243 @@
 .mainColecciones {
     .mainColeccionesDesktop {
-        width: 100%;
-
-        a {
-            text-decoration: none;
-
-            .prendasTop {
-                width: 95%;
-                height: 500px;
-                padding: 45px;
-                margin-left: 2.6vw;
-                margin-top: 130px;
-                background-image: url(../imagenes/imgColecciones/IMAROCKSTAR/PORTADA1.png);
-                background-size:cover;
-                background-position-y: 15%;
-                // background-repeat: no-repeat;
-                display: flex;
-                align-items:flex-end;
-                justify-content: right;
-                
-
-                .contenedorTitulo{
-                    width: 200px;
-                    margin-top: 100px;
-                    align-items: right;
-                    background: #FCFD9A;
-                    border-radius: 15px;
-                    // margin-top: 410px;
-
-                    p {
-                        font-family: 'Jost', sans-serif;
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 25px;
-                        line-height: 36px;
-                        text-align: center;
-                        color: black;    
-                    }
-                }
+      width: 100%;
+  
+      a {
+        text-decoration: none;
+  
+        .prendasTop {
+          width: 95%;
+          height: 500px;
+          padding: 45px;
+          margin-left: 2.6vw;
+          margin-top: 130px;
+          background-image: url(../imagenes/imgColecciones/IMAROCKSTAR/PORTADA1.png);
+          background-size: cover;
+          background-position-y: 15%;
+          // background-repeat: no-repeat;
+          display: flex;
+          align-items: flex-end;
+          justify-content: right;
+  
+          .contenedorTitulo {
+            width: 200px;
+            margin-top: 100px;
+            align-items: right;
+            background: #fcfd9a;
+            border-radius: 15px;
+            // margin-top: 410px;
+  
+            p {
+              font-family: "Jost", sans-serif;
+              font-style: normal;
+              font-weight: 700;
+              font-size: 25px;
+              line-height: 36px;
+              text-align: center;
+              color: black;
             }
+          }
         }
-
-        .colecciones {
-            display: flex;
-            margin-top: 4vh;
-            margin-bottom: 4vh;
-            
-            .padreContenedorTitulo{
-                display: flex;
-                align-items:flex-end;
-                justify-content: right;
-
-                .contenedorTitulo{
-                    width: 180px;
-                    margin-top: 350px;
-                    margin-right: 10px;
-                    align-items: right;
-                    background: #FCFD9A;
-                    border-radius: 15px;
-    
-                    p {
-                        font-family: 'Jost', sans-serif;
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 25px;
-                        line-height: 36px;
-                        text-align: center;
-                        color: black; 
-                    }
-    
-                }
-
+      }
+  
+      .colecciones {
+        display: flex;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+  
+        .padreContenedorTitulo {
+          display: flex;
+          align-items: flex-end;
+          justify-content: right;
+  
+          .contenedorTitulo {
+            width: 180px;
+            margin-top: 350px;
+            margin-right: 10px;
+            align-items: right;
+            background: #fcfd9a;
+            border-radius: 15px;
+  
+            p {
+              font-family: "Jost", sans-serif;
+              font-style: normal;
+              font-weight: 700;
+              font-size: 25px;
+              line-height: 36px;
+              text-align: center;
+              color: black;
             }
-            
-
-            .coleccion1 {
-                width: 30vw;
-                height: 412px;
-                // left: 45px;
-                margin-left: 2.6vw;
-                top: 550px;
-                background-image: url(../imagenes/imgColecciones/VINTASHPOP/PORTADA2.png);
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-            }
-
-            .coleccion2 {
-                width: 30vw;
-                height: 412px;
-                margin-left: 1.9vw;
-                top: 550px;
-                background-image: url(../imagenes/imgColecciones/ROADTRIP/PORTADA3.png);
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-            }
-
-            .coleccion3 {
-                width: 30vw;
-                height: 412px;
-                margin-left: 1.9vw;
-                top: 550px;
-                background-image: url(../imagenes/imgColecciones/SPRING2022/PORTADA4.png);
-                background-size: cover;
-                background-position: top;
-                background-repeat: no-repeat;
-            }
+          }
         }
+  
+        .coleccion1 {
+          width: 30vw;
+          height: 412px;
+          // left: 45px;
+          margin-left: 2.6vw;
+          top: 550px;
+          background-image: url(../imagenes/imgColecciones/VINTASHPOP/PORTADA2.png);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+  
+        .coleccion2 {
+          width: 30vw;
+          height: 412px;
+          margin-left: 1.9vw;
+          top: 550px;
+          background-image: url(../imagenes/imgColecciones/ROADTRIP/PORTADA3.png);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+  
+        .coleccion3 {
+          width: 30vw;
+          height: 412px;
+          margin-left: 1.9vw;
+          top: 550px;
+          background-image: url(../imagenes/imgColecciones/SPRING2022/portada.png);
+          background-size: cover;
+          background-position: top;
+          background-repeat: no-repeat;
+        }
+      }
     }
-
+  
     & .mainMobile {
-        display: none;
+      display: none;
     }
-
-
+  
     @media (max-width: 765px) {
-        .mainColeccionesDesktop {
-            display: none;
+      .mainColeccionesDesktop {
+        display: none;
+      }
+  
+      .mainMobile {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+  
+        .prendasTop-mobile {
+          position: relative;
+  
+          img {
+            width: 100%;
+            // height: 350px;
+            margin-top: 30px;
+          }
+  
+          p {
+            position: absolute;
+            width: 150px;
+            height: 19px;
+            left: 220px;
+            top: 250px;
+            padding-bottom: 25px;
+  
+            font-family: "Jost";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 26px;
+            text-align: center;
+            background: #fcfd9a;
+            border-radius: 15px;
+  
+            color: black;
+          }
         }
-
-        .mainMobile {
-            display: block;
-            align-items: center;
-            justify-content: center;
-            flex-direction: row;
-
-            .prendasTop-mobile {
-                position: relative;
-
-                img {
-                    width: 100%;
-                    // height: 350px;
-                    margin-top: 30px;
-                }
-                    
-                p {
-                    position: absolute;
-                    width: 150px;
-                    height: 19px;
-                    left: 220px;
-                    top: 250px;
-                    padding-bottom: 25px;
-
-                    font-family: 'Jost';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 18px;
-                    line-height: 26px;
-                    text-align: center;
-                    background: #FCFD9A;
-                    border-radius: 15px;   
-
-
-                    color: black;
-                }                
-                
+  
+        .colecciones-mobile {
+          .coleccion1-mobile {
+            position: relative;
+  
+            img {
+              width: 100%;
+  
+              margin-top: 10px;
             }
-
-            .colecciones-mobile {
-
-                .coleccion1-mobile,
-                .coleccion2-mobile,
-                .coleccion3-mobile {
-                    position: relative;
-
-                    img {
-                        width: 100%;
-                        height: 412px;
-                        margin-top: 10px;
-                    }
-
-                    p {
-                        position: absolute;
-                        width: 150px;
-                        height: 19px;
-                        left: 220px;
-                        top: 380px;
-                        padding-bottom: 25px;
-                        font-family: 'Jost';
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 18px;
-                        line-height: 26px;
-                        text-align: center;
-
-                        background: #FCFD9A;
-                        border-radius: 15px;   
-                        color: black;                        ;
-                    }
-                }
+  
+            p {
+              position: absolute;
+              width: 150px;
+              height: 19px;
+              left: 220px;
+              top: 510px;
+              padding-bottom: 25px;
+              font-family: "Jost";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 26px;
+              text-align: center;
+  
+              background: #fcfd9a;
+              border-radius: 15px;
+              color: black;
             }
+          }
+          .coleccion2-mobile {
+            position: relative;
+  
+            img {
+              width: 100%;
+  
+              margin-top: 10px;
+            }
+  
+            p {
+              position: absolute;
+              width: 150px;
+              height: 19px;
+              left: 220px;
+              top: 430px;
+              padding-bottom: 25px;
+              font-family: "Jost";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 26px;
+              text-align: center;
+  
+              background: #fcfd9a;
+              border-radius: 15px;
+              color: black;
+            }
+          }
+          .coleccion3-mobile {
+            position: relative;
+  
+            img {
+              width: 100%;
+  
+              margin-top: 10px;
+            }
+  
+            p {
+              position: absolute;
+              width: 150px;
+              height: 19px;
+              left: 220px;
+              top: 560px;
+              padding-bottom: 25px;
+              font-family: "Jost";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 26px;
+              text-align: center;
+  
+              background: #fcfd9a;
+              border-radius: 15px;
+              color: black;
+            }
+          }
         }
+      }
     }
-}
+  }
+  
