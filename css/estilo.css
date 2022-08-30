@@ -638,7 +638,8 @@ main {
     .menuFlotante li {
       padding-top: 20vw; }
     .menuFlotante a {
-      text-decoration: none; } }
+      text-decoration: none;
+      color: #ffffff; } }
 
 .mainCompraVenta .mainCompraVentaDesktop {
   width: 100%; }
