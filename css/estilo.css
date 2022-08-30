@@ -921,7 +921,7 @@ main {
       height: 412px;
       margin-left: 1.9vw;
       top: 550px;
-      background-image: url(../imagenes/imgColecciones/SPRING2022/PORTADA4.png);
+      background-image: url(../imagenes/imgColecciones/SPRING2022/portada.png);
       background-size: cover;
       background-position: top;
       background-repeat: no-repeat; }
@@ -958,23 +958,59 @@ main {
         background: #fcfd9a;
         border-radius: 15px;
         color: black; }
-    .mainColecciones .mainMobile .colecciones-mobile .coleccion1-mobile,
-    .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile,
+    .mainColecciones .mainMobile .colecciones-mobile .coleccion1-mobile {
+      position: relative; }
+      .mainColecciones .mainMobile .colecciones-mobile .coleccion1-mobile img {
+        width: 100%;
+        margin-top: 10px; }
+      .mainColecciones .mainMobile .colecciones-mobile .coleccion1-mobile p {
+        position: absolute;
+        width: 150px;
+        height: 19px;
+        left: 220px;
+        top: 510px;
+        padding-bottom: 25px;
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        background: #fcfd9a;
+        border-radius: 15px;
+        color: black; }
+    .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile {
+      position: relative; }
+      .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile img {
+        width: 100%;
+        margin-top: 10px; }
+      .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile p {
+        position: absolute;
+        width: 150px;
+        height: 19px;
+        left: 220px;
+        top: 430px;
+        padding-bottom: 25px;
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        background: #fcfd9a;
+        border-radius: 15px;
+        color: black; }
     .mainColecciones .mainMobile .colecciones-mobile .coleccion3-mobile {
       position: relative; }
-      .mainColecciones .mainMobile .colecciones-mobile .coleccion1-mobile img,
-      .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile img,
       .mainColecciones .mainMobile .colecciones-mobile .coleccion3-mobile img {
         width: 100%;
         margin-top: 10px; }
-      .mainColecciones .mainMobile .colecciones-mobile .coleccion1-mobile p,
-      .mainColecciones .mainMobile .colecciones-mobile .coleccion2-mobile p,
       .mainColecciones .mainMobile .colecciones-mobile .coleccion3-mobile p {
         position: absolute;
         width: 150px;
         height: 19px;
         left: 220px;
-        top: 380px;
+        top: 560px;
         padding-bottom: 25px;
         font-family: "Jost";
         font-style: normal;

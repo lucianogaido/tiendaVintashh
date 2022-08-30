@@ -98,7 +98,7 @@
         height: 412px;
         margin-left: 1.9vw;
         top: 550px;
-        background-image: url(../imagenes/imgColecciones/SPRING2022/PORTADA4.png);
+        background-image: url(../imagenes/imgColecciones/SPRING2022/portada.png);
         background-size: cover;
         background-position: top;
         background-repeat: no-repeat;
@@ -152,8 +152,62 @@
       }
 
       .colecciones-mobile {
-        .coleccion1-mobile,
-        .coleccion2-mobile,
+        .coleccion1-mobile {
+          position: relative;
+
+          img {
+            width: 100%;
+
+            margin-top: 10px;
+          }
+
+          p {
+            position: absolute;
+            width: 150px;
+            height: 19px;
+            left: 220px;
+            top: 510px;
+            padding-bottom: 25px;
+            font-family: "Jost";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 26px;
+            text-align: center;
+
+            background: #fcfd9a;
+            border-radius: 15px;
+            color: black;
+          }
+        }
+        .coleccion2-mobile {
+          position: relative;
+
+          img {
+            width: 100%;
+
+            margin-top: 10px;
+          }
+
+          p {
+            position: absolute;
+            width: 150px;
+            height: 19px;
+            left: 220px;
+            top: 430px;
+            padding-bottom: 25px;
+            font-family: "Jost";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 26px;
+            text-align: center;
+
+            background: #fcfd9a;
+            border-radius: 15px;
+            color: black;
+          }
+        }
         .coleccion3-mobile {
           position: relative;
 
@@ -168,7 +222,7 @@
             width: 150px;
             height: 19px;
             left: 220px;
-            top: 380px;
+            top: 560px;
             padding-bottom: 25px;
             font-family: "Jost";
             font-style: normal;
